@@ -1,0 +1,8 @@
+#!/bin/sh
+#SBATCH -J python
+#SBATCH -N 1
+#SBATCH --ntasks-per-node=4
+#SBATCH -p fat6348,node6348
+ 
+# PATH
+OMP_NUM_THREADS=4 julia 2d_hubbard.jl >out 2>err

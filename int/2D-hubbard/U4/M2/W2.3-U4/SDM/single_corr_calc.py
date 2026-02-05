@@ -1,0 +1,90 @@
+from scipy.sparse.linalg import eigsh
+import os
+from numpy import conj
+from math import *
+import cmath
+import matplotlib.cm as cm
+import scipy.sparse
+from scipy.sparse import csr_matrix
+from scipy.sparse.linalg import eigs, eigsh
+import time
+from scipy.optimize import curve_fit
+import numpy as np
+import matplotlib.pyplot as plt
+
+def custom_func(x, a, b, c, xi):
+    #return a*np.exp(-b*x)
+    return a*np.sin((b)*(x))/(x**1)*np.exp(-x/xi)
+
+
+def custom_func_single(x, a, b):
+    return a*np.exp(-b*x)
+    return a*np.sin((b)*(x))/(x**1)*np.exp(-x/xi)
+
+
+current_path = os.getcwd()
+
+len_list = 20
+num_L = 2
+
+L_list = np.array([ii+1 for ii in range(len_list)], dtype=float)
+C_list_single = np.zeros((num_L,num_L,len_list),dtype=float)
+
+num_iter = 120
+
+for ii in range(0,num_iter+0):
+    if(ii==98 or ii==99 or ii==86 or ii==88 or ii==92 or ii==93 or ii==123 or ii==130):
+        continue
+    path = file_path = os.path.join(current_path, str(ii) , 'out')
+    with open(path, 'r') as phase:
+    #with open('E:\\DFT_calculation\\wannier_tools\\KIn\\sigma_ahc_eta10.00meV.txt', 'r') as phase:
+
+        orbital_value = phase.readlines()
+    phase.close()
+    for jj in range(len(orbital_value)):
+        
+        orbital_value[jj] = orbital_value[jj].split()
+        if( abs(len(orbital_value)-jj) <= num_L*num_L*len_list ):
+            #print(orbital_value[jj])
+            string_temp = orbital_value[jj]
+            x = int(float(string_temp[0])) - 1
+            y = int(float(string_temp[1])) - 1
+            z = int(float(string_temp[2])) - 1
+            data = float(string_temp[3])
+
+            C_list_single[x,y,z] = C_list_single[x,y,z] + data/num_iter
+
+R_list = np.array([ii+1 for ii in range(len_list)])
+C_final_list = []
+
+print("C_list:")
+for kk in range(len_list):
+    for ii in range(num_L):
+        for jj in range(num_L):
+            1#print(ii,jj,kk,C_list_single[ii,jj,kk])
+
+for ii in range(len_list):
+    C_temp = C_list_single[:,:,ii]
+    e,v = np.linalg.eigh(np.dot(C_temp,C_temp.transpose()))
+
+    C_final_list.append((np.max(e)))
+    
+a4, b4= curve_fit(custom_func_single, R_list, np.array(C_final_list))[0]
+x4 = np.arange(1,len_list, 0.01)
+y4 = a4*np.exp(-b4*x4)
+print(a4, 1/b4)
+C_final_list = np.array(C_final_list)
+
+# 绘制自相关函数和拟合结果
+color_list = ['r','k','b','m','pink','orange']
+plt.figure(figsize=(4.5,4.5))
+plt.scatter(R_list, C_final_list, color='red',label='max')
+#plt.scatter(R_list, C_final_list_svd,color='b',label='svd')
+plt.plot(x4, y4, '--', label=f'Fit: ξ = {1/b4:.2f}')
+plt.xlabel('Distance r')
+plt.ylabel('C(r)')
+plt.legend(prop = {'size':16})
+#plt.title('Localization Length from Green\'s Function')
+plt.savefig('gamma_x_2D.svg')
+print(len(C_final_list))
+print("C_list-final:",[C_final_list[ii] for ii in range(len(C_final_list)) ] )

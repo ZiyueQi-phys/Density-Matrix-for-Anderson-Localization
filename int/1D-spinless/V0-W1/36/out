@@ -1,0 +1,944 @@
+mu1:-0.02446731115416645
+mu2:0.5165711302288527
+mu3:-0.03893378946776527
+mu4:-0.6990069099850531
+mu5:-0.7380013985432528
+mu6:0.5861486771963347
+mu7:0.8489295528848793
+mu8:0.09312042165463441
+mu9:-0.6762327237651298
+mu10:-0.06444168695983876
+mu11:0.7919549643224455
+mu12:0.12677519949537008
+mu13:0.38606413106338744
+mu14:-0.4669721006624532
+mu15:0.7968732102190574
+mu16:0.18959649512053445
+mu17:0.15861732672664353
+mu18:0.6477446922924384
+mu19:-0.10526683426257133
+mu20:0.637909481808852
+mu21:0.4090241204497844
+mu22:0.8303748972302156
+mu23:-0.9079412863816922
+mu24:0.5807724966112553
+mu25:0.34050897998445984
+mu26:-0.87331247151867
+mu27:-0.7612173395338082
+mu28:-0.6502099198970512
+mu29:0.7335368960026489
+mu30:0.6606296605375059
+mu31:0.5492432381335941
+mu32:0.091954487283461
+mu33:-0.2573556618572217
+mu34:0.34641082305489834
+mu35:0.5527768056367792
+mu36:-0.7784489958427614
+mu37:-0.07789446025161806
+mu38:0.3710042083141829
+mu39:-0.30332865505816575
+mu40:-0.7242628296834073
+mu41:-0.9894349044146991
+mu42:-0.8869635122285799
+mu43:-0.6550341858411879
+mu44:-0.42117956679482416
+mu45:0.30419246126486166
+mu46:0.3102984413885419
+mu47:-0.0016858257474092753
+mu48:0.4281622826567548
+mu49:0.15136920181426294
+mu50:0.9853364107510711
+mu51:0.44720262088799845
+mu52:0.7277526268618639
+mu53:-0.16913016103908496
+mu54:-0.4332728127243728
+mu55:0.2987867006574876
+mu56:0.15443006323463804
+mu57:0.45302320571340804
+mu58:0.5806043458339865
+mu59:0.07461194088063183
+mu60:-0.9351991208571364
+mu61:0.17957032563745567
+mu62:-0.5341081429679979
+mu63:0.13582559168083908
+mu64:0.5151472607273877
+mu65:0.9167413852442967
+mu66:-0.5083948595948586
+mu67:-0.8590941765068538
+mu68:0.761178414708521
+mu69:0.8895419145720143
+mu70:-0.12215127790561975
+mu71:0.5701952551514644
+mu72:0.23321434464560542
+mu73:0.2208326739298918
+mu74:0.1325915998774727
+mu75:-0.30433619771325726
+mu76:-0.785853377563053
+mu77:0.41345652567140334
+mu78:0.4983176912318723
+mu79:-0.8963828765360902
+mu80:-0.6610499224616677
+mu81:-0.5369690467670494
+mu82:-0.9423409014196353
+mu83:-0.3467601704895018
+mu84:0.3466223886622155
+mu85:0.25816923927714
+mu86:0.8520306804751017
+mu87:0.4498937074895304
+mu88:-0.535229659882178
+mu89:-0.5316757185202303
+mu90:-0.7248629346179463
+mu91:-0.06886123272546363
+mu92:-0.4768123593921092
+mu93:-0.5790343883275326
+mu94:-0.6554264443627067
+mu95:0.2552181054311471
+mu96:0.9558029544556281
+mu97:0.2912458245799241
+mu98:-0.5959422868498843
+mu99:0.11874489528849153
+mu100:-0.36800716646549336
+mu101:-0.9746050670931954
+mu102:-0.5498572752764899
+mu103:0.12048428135620903
+mu104:0.076127248154374
+mu105:0.70576828004616
+mu106:-0.7792316227321356
+mu107:0.19441861127185267
+mu108:0.728002878967944
+mu109:-0.4032887330714847
+mu110:0.8814624296639049
+mu111:0.36055327587982244
+mu112:-0.5551288751269068
+mu113:0.5353502867456132
+mu114:-0.8374033393154048
+mu115:-0.49113598945339687
+mu116:-0.7883870214138211
+mu117:0.3838462148168569
+mu118:-0.9955217615197396
+mu119:0.9490148282505242
+mu120:0.7424707391213601
+sites:Vector{Index{Vector{Pair{QN, Int64}}}}
+flux(psi0_init) = QN(("Nf",60,-1),("Sz",60))
+maxdim:[30, 30, 30]After sweep 1 energy=-21.238290750854247  maxlinkdim=30 maxerr=3.60E-08 time=36.856
+After sweep 2 energy=-25.949160918260425  maxlinkdim=30 maxerr=4.45E-07 time=0.990
+After sweep 3 energy=-30.077935536785695  maxlinkdim=30 maxerr=8.74E-07 time=1.121
+After sweep 4 energy=-33.64874463850048  maxlinkdim=30 maxerr=5.85E-07 time=1.253
+After sweep 5 energy=-37.13256464491628  maxlinkdim=30 maxerr=1.89E-07 time=1.373
+After sweep 6 energy=-39.885305679307535  maxlinkdim=30 maxerr=4.76E-07 time=1.386
+After sweep 7 energy=-42.1529537668626  maxlinkdim=30 maxerr=3.30E-07 time=1.354
+After sweep 8 energy=-44.98606958765613  maxlinkdim=30 maxerr=1.67E-07 time=1.422
+After sweep 9 energy=-47.01728894960034  maxlinkdim=30 maxerr=2.27E-07 time=1.811
+After sweep 10 energy=-49.578144307791085  maxlinkdim=30 maxerr=1.14E-07 time=1.464
+After sweep 11 energy=-51.73665642303074  maxlinkdim=30 maxerr=1.42E-07 time=1.521
+After sweep 12 energy=-53.933087759265156  maxlinkdim=30 maxerr=1.18E-07 time=1.526
+After sweep 13 energy=-55.52884948329664  maxlinkdim=30 maxerr=8.98E-08 time=1.535
+After sweep 14 energy=-57.42818981858537  maxlinkdim=30 maxerr=2.37E-07 time=1.541
+After sweep 15 energy=-58.7458363762097  maxlinkdim=30 maxerr=6.42E-08 time=1.530
+After sweep 16 energy=-60.40974410064867  maxlinkdim=30 maxerr=1.44E-07 time=1.471
+After sweep 17 energy=-61.887967560669615  maxlinkdim=30 maxerr=1.98E-07 time=1.519
+After sweep 18 energy=-63.30353475434749  maxlinkdim=30 maxerr=8.97E-08 time=1.494
+After sweep 19 energy=-64.93496444351307  maxlinkdim=30 maxerr=1.18E-07 time=1.480
+After sweep 20 energy=-66.0230446798796  maxlinkdim=30 maxerr=1.02E-07 time=1.521
+After sweep 21 energy=-67.17653883515906  maxlinkdim=30 maxerr=7.90E-08 time=1.517
+After sweep 22 energy=-68.44751510196352  maxlinkdim=30 maxerr=1.09E-07 time=1.469
+After sweep 23 energy=-69.70264902728725  maxlinkdim=30 maxerr=6.97E-08 time=1.560
+After sweep 24 energy=-70.48280944567243  maxlinkdim=30 maxerr=1.16E-07 time=1.653
+After sweep 25 energy=-71.22926239435792  maxlinkdim=30 maxerr=6.52E-08 time=1.626
+After sweep 26 energy=-72.57878683140197  maxlinkdim=30 maxerr=9.64E-08 time=1.661
+After sweep 27 energy=-73.20989624786242  maxlinkdim=30 maxerr=5.32E-08 time=1.669
+After sweep 28 energy=-74.18105330338936  maxlinkdim=30 maxerr=7.67E-08 time=2.173
+After sweep 29 energy=-74.58845892417268  maxlinkdim=30 maxerr=7.16E-08 time=1.669
+After sweep 30 energy=-75.0285125485649  maxlinkdim=30 maxerr=4.33E-08 time=1.691
+After sweep 31 energy=-76.2097800346162  maxlinkdim=30 maxerr=2.33E-07 time=1.631
+After sweep 32 energy=-76.68866736267046  maxlinkdim=30 maxerr=1.24E-06 time=1.555
+After sweep 33 energy=-77.36606152908193  maxlinkdim=30 maxerr=5.48E-07 time=1.567
+After sweep 34 energy=-77.5131343190702  maxlinkdim=30 maxerr=2.44E-07 time=1.577
+After sweep 35 energy=-77.72915894395544  maxlinkdim=30 maxerr=5.27E-07 time=1.595
+After sweep 36 energy=-78.28309661613379  maxlinkdim=30 maxerr=8.03E-07 time=1.656
+After sweep 37 energy=-78.42058306196468  maxlinkdim=30 maxerr=2.41E-07 time=1.643
+After sweep 38 energy=-78.48636428483171  maxlinkdim=30 maxerr=3.74E-07 time=1.667
+After sweep 39 energy=-78.77463317033548  maxlinkdim=30 maxerr=5.21E-07 time=1.695
+After sweep 40 energy=-79.07762744081157  maxlinkdim=30 maxerr=1.57E-06 time=1.628
+After sweep 41 energy=-79.15046443802265  maxlinkdim=30 maxerr=1.83E-06 time=1.663
+After sweep 42 energy=-79.4567244260871  maxlinkdim=30 maxerr=1.19E-06 time=1.636
+After sweep 43 energy=-79.63148636904528  maxlinkdim=30 maxerr=1.68E-06 time=1.562
+After sweep 44 energy=-79.9237130323463  maxlinkdim=30 maxerr=2.72E-06 time=1.496
+After sweep 45 energy=-79.94321238283231  maxlinkdim=30 maxerr=6.33E-07 time=1.498
+After sweep 46 energy=-79.94479268914105  maxlinkdim=30 maxerr=7.08E-07 time=1.445
+After sweep 47 energy=-79.94875588925724  maxlinkdim=30 maxerr=2.21E-06 time=1.501
+After sweep 48 energy=-79.9509886969326  maxlinkdim=30 maxerr=3.96E-06 time=2.084
+After sweep 49 energy=-79.95116916975634  maxlinkdim=30 maxerr=3.38E-06 time=1.539
+After sweep 50 energy=-79.95118973616809  maxlinkdim=30 maxerr=3.16E-06 time=1.577
+After sweep 51 energy=-79.9511925822291  maxlinkdim=30 maxerr=3.11E-06 time=1.559
+After sweep 52 energy=-79.95119249638647  maxlinkdim=30 maxerr=3.03E-06 time=1.579
+After sweep 53 energy=-79.95119224376677  maxlinkdim=30 maxerr=3.02E-06 time=1.605
+After sweep 54 energy=-79.95119232112488  maxlinkdim=30 maxerr=3.02E-06 time=1.536
+After sweep 55 energy=-79.95119234651234  maxlinkdim=30 maxerr=3.01E-06 time=1.602
+After sweep 56 energy=-79.95119235645694  maxlinkdim=30 maxerr=3.01E-06 time=1.616
+After sweep 57 energy=-79.95119236079366  maxlinkdim=30 maxerr=3.01E-06 time=1.577
+After sweep 58 energy=-79.95119236284458  maxlinkdim=30 maxerr=3.01E-06 time=1.662
+After sweep 59 energy=-79.95119236389131  maxlinkdim=30 maxerr=3.01E-06 time=1.655
+After sweep 60 energy=-79.95119236447064  maxlinkdim=30 maxerr=3.01E-06 time=1.607
+After sweep 61 energy=-79.95119236481786  maxlinkdim=30 maxerr=3.01E-06 time=1.662
+After sweep 62 energy=-79.95119236504131  maxlinkdim=30 maxerr=3.01E-06 time=1.630
+After sweep 63 energy=-79.95119236519254  maxlinkdim=30 maxerr=3.01E-06 time=1.580
+After sweep 64 energy=-79.95119236529872  maxlinkdim=30 maxerr=3.01E-06 time=1.645
+After sweep 65 energy=-79.95119236537576  maxlinkdim=30 maxerr=3.01E-06 time=1.636
+After sweep 66 energy=-79.95119236543214  maxlinkdim=30 maxerr=3.01E-06 time=1.601
+After sweep 67 energy=-79.95119236547305  maxlinkdim=30 maxerr=3.01E-06 time=2.301
+After sweep 68 energy=-79.95119236550406  maxlinkdim=30 maxerr=3.01E-06 time=1.618
+After sweep 69 energy=-79.95119236552668  maxlinkdim=30 maxerr=3.01E-06 time=1.623
+After sweep 70 energy=-79.95119236554349  maxlinkdim=30 maxerr=3.01E-06 time=1.653
+After sweep 71 energy=-79.9511923655562  maxlinkdim=30 maxerr=3.01E-06 time=1.597
+After sweep 72 energy=-79.95119236556604  maxlinkdim=30 maxerr=3.01E-06 time=1.598
+After sweep 73 energy=-79.95119236557291  maxlinkdim=30 maxerr=3.01E-06 time=1.660
+After sweep 74 energy=-79.95119236557814  maxlinkdim=30 maxerr=3.01E-06 time=1.608
+After sweep 75 energy=-79.95119236558172  maxlinkdim=30 maxerr=3.01E-06 time=1.635
+After sweep 76 energy=-79.95119236558489  maxlinkdim=30 maxerr=3.01E-06 time=1.700
+After sweep 77 energy=-79.95119236558716  maxlinkdim=30 maxerr=3.01E-06 time=1.643
+After sweep 78 energy=-79.9511923655887  maxlinkdim=30 maxerr=3.01E-06 time=1.658
+After sweep 79 energy=-79.95119236558978  maxlinkdim=30 maxerr=3.01E-06 time=1.684
+After sweep 80 energy=-79.95119236559096  maxlinkdim=30 maxerr=3.01E-06 time=1.650
+After sweep 81 energy=-79.95119236559168  maxlinkdim=30 maxerr=3.01E-06 time=1.661
+After sweep 82 energy=-79.95119236559172  maxlinkdim=30 maxerr=3.01E-06 time=1.659
+After sweep 83 energy=-79.95119236559248  maxlinkdim=30 maxerr=3.01E-06 time=1.646
+After sweep 84 energy=-79.95119236559256  maxlinkdim=30 maxerr=3.01E-06 time=1.653
+After sweep 85 energy=-79.95119236559272  maxlinkdim=30 maxerr=3.01E-06 time=1.664
+After sweep 86 energy=-79.9511923655931  maxlinkdim=30 maxerr=3.01E-06 time=1.646
+After sweep 87 energy=-79.95119236559309  maxlinkdim=30 maxerr=3.01E-06 time=2.268
+After sweep 88 energy=-79.95119236559296  maxlinkdim=30 maxerr=3.01E-06 time=1.647
+After sweep 89 energy=-79.95119236559337  maxlinkdim=30 maxerr=3.01E-06 time=1.617
+After sweep 90 energy=-79.95119236559366  maxlinkdim=30 maxerr=3.01E-06 time=1.609
+After sweep 91 energy=-79.95119236559323  maxlinkdim=30 maxerr=3.01E-06 time=1.619
+After sweep 92 energy=-79.95119236559368  maxlinkdim=30 maxerr=3.01E-06 time=1.593
+After sweep 93 energy=-79.95119236559329  maxlinkdim=30 maxerr=3.01E-06 time=1.574
+After sweep 94 energy=-79.9511923655933  maxlinkdim=30 maxerr=3.01E-06 time=1.638
+After sweep 95 energy=-79.9511923655935  maxlinkdim=30 maxerr=3.01E-06 time=1.608
+After sweep 96 energy=-79.9511923655939  maxlinkdim=30 maxerr=3.01E-06 time=1.577
+After sweep 97 energy=-79.95119236559366  maxlinkdim=30 maxerr=3.01E-06 time=1.620
+After sweep 98 energy=-79.9511923655937  maxlinkdim=30 maxerr=3.01E-06 time=1.586
+After sweep 99 energy=-79.95119236559371  maxlinkdim=30 maxerr=3.01E-06 time=1.547
+After sweep 100 energy=-79.9511923655937  maxlinkdim=30 maxerr=3.01E-06 time=1.594
+maxdim:[50, 50, 50]After sweep 1 energy=-79.9515516982929  maxlinkdim=50 maxerr=2.24E-07 time=1.889
+After sweep 2 energy=-79.95155451304824  maxlinkdim=50 maxerr=2.40E-07 time=1.951
+After sweep 3 energy=-79.95155454034361  maxlinkdim=50 maxerr=2.43E-07 time=1.948
+After sweep 4 energy=-79.95155453493113  maxlinkdim=50 maxerr=2.43E-07 time=1.921
+After sweep 5 energy=-79.95155446262201  maxlinkdim=50 maxerr=2.43E-07 time=2.487
+After sweep 6 energy=-79.95155452767104  maxlinkdim=50 maxerr=2.43E-07 time=1.881
+After sweep 7 energy=-79.9515544596129  maxlinkdim=50 maxerr=2.43E-07 time=1.957
+After sweep 8 energy=-79.95155452726732  maxlinkdim=50 maxerr=2.43E-07 time=1.909
+After sweep 9 energy=-79.95155445959752  maxlinkdim=50 maxerr=2.43E-07 time=1.939
+After sweep 10 energy=-79.95155452728278  maxlinkdim=50 maxerr=2.43E-07 time=1.915
+After sweep 11 energy=-79.95155445960789  maxlinkdim=50 maxerr=2.43E-07 time=1.902
+After sweep 12 energy=-79.95155452728855  maxlinkdim=50 maxerr=2.43E-07 time=1.949
+After sweep 13 energy=-79.95155445961026  maxlinkdim=50 maxerr=2.43E-07 time=1.924
+After sweep 14 energy=-79.95155452728943  maxlinkdim=50 maxerr=2.43E-07 time=1.966
+After sweep 15 energy=-79.95155445961073  maxlinkdim=50 maxerr=2.43E-07 time=1.930
+After sweep 16 energy=-79.95155452728993  maxlinkdim=50 maxerr=2.43E-07 time=1.949
+After sweep 17 energy=-79.95155445961085  maxlinkdim=50 maxerr=2.43E-07 time=2.366
+After sweep 18 energy=-79.95155452728979  maxlinkdim=50 maxerr=2.43E-07 time=2.316
+After sweep 19 energy=-79.95155445961097  maxlinkdim=50 maxerr=2.43E-07 time=2.032
+After sweep 20 energy=-79.95155452728991  maxlinkdim=50 maxerr=2.43E-07 time=2.018
+After sweep 21 energy=-79.95155445961109  maxlinkdim=50 maxerr=2.43E-07 time=2.048
+After sweep 22 energy=-79.95155452728983  maxlinkdim=50 maxerr=2.43E-07 time=2.004
+After sweep 23 energy=-79.95155445961088  maxlinkdim=50 maxerr=2.43E-07 time=1.987
+After sweep 24 energy=-79.95155452729001  maxlinkdim=50 maxerr=2.43E-07 time=1.999
+After sweep 25 energy=-79.95155445961093  maxlinkdim=50 maxerr=2.43E-07 time=2.045
+After sweep 26 energy=-79.95155452728997  maxlinkdim=50 maxerr=2.43E-07 time=2.055
+After sweep 27 energy=-79.95155445961096  maxlinkdim=50 maxerr=2.43E-07 time=2.029
+After sweep 28 energy=-79.95155452728993  maxlinkdim=50 maxerr=2.43E-07 time=2.059
+After sweep 29 energy=-79.95155445961109  maxlinkdim=50 maxerr=2.43E-07 time=2.028
+After sweep 30 energy=-79.95155452728994  maxlinkdim=50 maxerr=2.43E-07 time=2.045
+After sweep 31 energy=-79.95155445961103  maxlinkdim=50 maxerr=2.43E-07 time=2.772
+After sweep 32 energy=-79.95155452729001  maxlinkdim=50 maxerr=2.43E-07 time=2.098
+After sweep 33 energy=-79.951554459611  maxlinkdim=50 maxerr=2.43E-07 time=2.091
+After sweep 34 energy=-79.95155452728967  maxlinkdim=50 maxerr=2.43E-07 time=2.075
+After sweep 35 energy=-79.95155445961095  maxlinkdim=50 maxerr=2.43E-07 time=2.082
+After sweep 36 energy=-79.95155452728996  maxlinkdim=50 maxerr=2.43E-07 time=2.084
+After sweep 37 energy=-79.95155445961088  maxlinkdim=50 maxerr=2.43E-07 time=2.079
+After sweep 38 energy=-79.95155452728976  maxlinkdim=50 maxerr=2.43E-07 time=2.079
+After sweep 39 energy=-79.95155445961122  maxlinkdim=50 maxerr=2.43E-07 time=2.051
+After sweep 40 energy=-79.95155452728943  maxlinkdim=50 maxerr=2.43E-07 time=2.061
+After sweep 41 energy=-79.95155445961107  maxlinkdim=50 maxerr=2.43E-07 time=2.033
+After sweep 42 energy=-79.95155452728955  maxlinkdim=50 maxerr=2.43E-07 time=2.032
+After sweep 43 energy=-79.95155445961112  maxlinkdim=50 maxerr=2.43E-07 time=2.041
+After sweep 44 energy=-79.95155452728979  maxlinkdim=50 maxerr=2.43E-07 time=2.605
+After sweep 45 energy=-79.95155445961083  maxlinkdim=50 maxerr=2.43E-07 time=2.024
+After sweep 46 energy=-79.95155452728957  maxlinkdim=50 maxerr=2.43E-07 time=2.002
+After sweep 47 energy=-79.95155445961095  maxlinkdim=50 maxerr=2.43E-07 time=2.015
+After sweep 48 energy=-79.95155452728962  maxlinkdim=50 maxerr=2.43E-07 time=2.034
+After sweep 49 energy=-79.95155445961076  maxlinkdim=50 maxerr=2.43E-07 time=2.050
+After sweep 50 energy=-79.95155452728964  maxlinkdim=50 maxerr=2.43E-07 time=2.053
+After sweep 51 energy=-79.95155445961085  maxlinkdim=50 maxerr=2.43E-07 time=2.067
+After sweep 52 energy=-79.95155452729018  maxlinkdim=50 maxerr=2.43E-07 time=2.078
+After sweep 53 energy=-79.95155445961096  maxlinkdim=50 maxerr=2.43E-07 time=2.064
+After sweep 54 energy=-79.95155452728987  maxlinkdim=50 maxerr=2.43E-07 time=2.126
+After sweep 55 energy=-79.951554459611  maxlinkdim=50 maxerr=2.43E-07 time=2.088
+After sweep 56 energy=-79.95155452729006  maxlinkdim=50 maxerr=2.43E-07 time=2.101
+After sweep 57 energy=-79.95155445961083  maxlinkdim=50 maxerr=2.43E-07 time=2.095
+After sweep 58 energy=-79.95155452728982  maxlinkdim=50 maxerr=2.43E-07 time=2.773
+After sweep 59 energy=-79.95155445961059  maxlinkdim=50 maxerr=2.43E-07 time=2.101
+After sweep 60 energy=-79.95155452728966  maxlinkdim=50 maxerr=2.43E-07 time=2.083
+After sweep 61 energy=-79.95155445961085  maxlinkdim=50 maxerr=2.43E-07 time=2.098
+After sweep 62 energy=-79.95155452728977  maxlinkdim=50 maxerr=2.43E-07 time=2.090
+After sweep 63 energy=-79.9515544596106  maxlinkdim=50 maxerr=2.43E-07 time=2.083
+After sweep 64 energy=-79.95155452728972  maxlinkdim=50 maxerr=2.43E-07 time=2.101
+After sweep 65 energy=-79.95155445961078  maxlinkdim=50 maxerr=2.43E-07 time=2.084
+After sweep 66 energy=-79.9515545272899  maxlinkdim=50 maxerr=2.43E-07 time=2.103
+After sweep 67 energy=-79.9515544596108  maxlinkdim=50 maxerr=2.43E-07 time=2.097
+After sweep 68 energy=-79.95155452728986  maxlinkdim=50 maxerr=2.43E-07 time=2.094
+After sweep 69 energy=-79.95155445961097  maxlinkdim=50 maxerr=2.43E-07 time=2.113
+After sweep 70 energy=-79.9515545272897  maxlinkdim=50 maxerr=2.43E-07 time=2.093
+After sweep 71 energy=-79.95155445961134  maxlinkdim=50 maxerr=2.43E-07 time=2.086
+After sweep 72 energy=-79.95155452728972  maxlinkdim=50 maxerr=2.43E-07 time=2.701
+After sweep 73 energy=-79.9515544596112  maxlinkdim=50 maxerr=2.43E-07 time=2.081
+After sweep 74 energy=-79.95155452728976  maxlinkdim=50 maxerr=2.43E-07 time=2.087
+After sweep 75 energy=-79.9515544596108  maxlinkdim=50 maxerr=2.43E-07 time=2.072
+After sweep 76 energy=-79.95155452728972  maxlinkdim=50 maxerr=2.43E-07 time=2.082
+After sweep 77 energy=-79.95155445961107  maxlinkdim=50 maxerr=2.43E-07 time=2.061
+After sweep 78 energy=-79.95155452728976  maxlinkdim=50 maxerr=2.43E-07 time=2.049
+After sweep 79 energy=-79.9515544596113  maxlinkdim=50 maxerr=2.43E-07 time=2.046
+After sweep 80 energy=-79.95155452728991  maxlinkdim=50 maxerr=2.43E-07 time=2.012
+After sweep 81 energy=-79.95155445961112  maxlinkdim=50 maxerr=2.43E-07 time=2.049
+After sweep 82 energy=-79.95155452728966  maxlinkdim=50 maxerr=2.43E-07 time=2.041
+After sweep 83 energy=-79.95155445961086  maxlinkdim=50 maxerr=2.43E-07 time=2.023
+After sweep 84 energy=-79.95155452728982  maxlinkdim=50 maxerr=2.43E-07 time=2.027
+After sweep 85 energy=-79.95155445961117  maxlinkdim=50 maxerr=2.43E-07 time=1.996
+After sweep 86 energy=-79.95155452728996  maxlinkdim=50 maxerr=2.43E-07 time=2.666
+After sweep 87 energy=-79.95155445961073  maxlinkdim=50 maxerr=2.43E-07 time=2.022
+After sweep 88 energy=-79.95155452728984  maxlinkdim=50 maxerr=2.43E-07 time=2.074
+After sweep 89 energy=-79.95155445961119  maxlinkdim=50 maxerr=2.43E-07 time=2.054
+After sweep 90 energy=-79.9515545272901  maxlinkdim=50 maxerr=2.43E-07 time=2.079
+After sweep 91 energy=-79.95155445961099  maxlinkdim=50 maxerr=2.43E-07 time=2.070
+After sweep 92 energy=-79.95155452728964  maxlinkdim=50 maxerr=2.43E-07 time=2.061
+After sweep 93 energy=-79.95155445961102  maxlinkdim=50 maxerr=2.43E-07 time=2.095
+After sweep 94 energy=-79.95155452728996  maxlinkdim=50 maxerr=2.43E-07 time=2.068
+After sweep 95 energy=-79.95155445961096  maxlinkdim=50 maxerr=2.43E-07 time=2.097
+After sweep 96 energy=-79.95155452729026  maxlinkdim=50 maxerr=2.43E-07 time=2.083
+After sweep 97 energy=-79.95155445961102  maxlinkdim=50 maxerr=2.43E-07 time=2.067
+After sweep 98 energy=-79.95155452728956  maxlinkdim=50 maxerr=2.43E-07 time=2.076
+After sweep 99 energy=-79.95155445961107  maxlinkdim=50 maxerr=2.43E-07 time=2.022
+After sweep 100 energy=-79.9515545272898  maxlinkdim=50 maxerr=2.43E-07 time=2.036
+maxdim:[100, 100, 100]After sweep 1 energy=-79.95157958946946  maxlinkdim=100 maxerr=2.63E-09 time=3.266
+After sweep 2 energy=-79.9515796627433  maxlinkdim=100 maxerr=2.96E-09 time=3.146
+After sweep 3 energy=-79.95157966409307  maxlinkdim=100 maxerr=2.95E-09 time=3.132
+After sweep 4 energy=-79.95157966572725  maxlinkdim=100 maxerr=2.96E-09 time=3.118
+After sweep 5 energy=-79.95157966587465  maxlinkdim=100 maxerr=2.96E-09 time=3.213
+After sweep 6 energy=-79.95157966580614  maxlinkdim=100 maxerr=2.96E-09 time=3.263
+After sweep 7 energy=-79.95157966618589  maxlinkdim=100 maxerr=2.96E-09 time=3.983
+After sweep 8 energy=-79.95157966618017  maxlinkdim=100 maxerr=2.96E-09 time=3.300
+After sweep 9 energy=-79.95157966617829  maxlinkdim=100 maxerr=2.96E-09 time=3.292
+After sweep 10 energy=-79.95157966617785  maxlinkdim=100 maxerr=2.96E-09 time=3.262
+After sweep 11 energy=-79.95157966617765  maxlinkdim=100 maxerr=2.96E-09 time=3.215
+After sweep 12 energy=-79.95157966617757  maxlinkdim=100 maxerr=2.96E-09 time=3.194
+After sweep 13 energy=-79.95157966617755  maxlinkdim=100 maxerr=2.96E-09 time=3.699
+After sweep 14 energy=-79.95157966617745  maxlinkdim=100 maxerr=2.96E-09 time=3.141
+After sweep 15 energy=-79.95157966617744  maxlinkdim=100 maxerr=2.96E-09 time=3.140
+After sweep 16 energy=-79.95157966617737  maxlinkdim=100 maxerr=2.96E-09 time=3.132
+After sweep 17 energy=-79.95157966617784  maxlinkdim=100 maxerr=2.96E-09 time=3.126
+After sweep 18 energy=-79.9515796661775  maxlinkdim=100 maxerr=2.96E-09 time=3.167
+After sweep 19 energy=-79.95157966617731  maxlinkdim=100 maxerr=2.96E-09 time=3.176
+After sweep 20 energy=-79.95157966617741  maxlinkdim=100 maxerr=2.96E-09 time=3.807
+After sweep 21 energy=-79.95157966617751  maxlinkdim=100 maxerr=2.96E-09 time=3.250
+After sweep 22 energy=-79.95157966617744  maxlinkdim=100 maxerr=2.96E-09 time=3.259
+After sweep 23 energy=-79.95157966617748  maxlinkdim=100 maxerr=2.96E-09 time=3.278
+After sweep 24 energy=-79.95157966617761  maxlinkdim=100 maxerr=2.96E-09 time=3.275
+After sweep 25 energy=-79.95157966617765  maxlinkdim=100 maxerr=2.96E-09 time=3.280
+After sweep 26 energy=-79.95157966617751  maxlinkdim=100 maxerr=2.96E-09 time=3.261
+After sweep 27 energy=-79.9515796661774  maxlinkdim=100 maxerr=2.96E-09 time=3.917
+After sweep 28 energy=-79.95157966617772  maxlinkdim=100 maxerr=2.96E-09 time=3.298
+After sweep 29 energy=-79.95157966617782  maxlinkdim=100 maxerr=2.96E-09 time=3.286
+After sweep 30 energy=-79.95157966617764  maxlinkdim=100 maxerr=2.96E-09 time=3.273
+After sweep 31 energy=-79.95157966617774  maxlinkdim=100 maxerr=2.96E-09 time=3.256
+After sweep 32 energy=-79.95157966617751  maxlinkdim=100 maxerr=2.96E-09 time=3.255
+After sweep 33 energy=-79.95157966617774  maxlinkdim=100 maxerr=2.96E-09 time=3.210
+After sweep 34 energy=-79.95157966617758  maxlinkdim=100 maxerr=2.96E-09 time=3.854
+After sweep 35 energy=-79.95157966617728  maxlinkdim=100 maxerr=2.96E-09 time=3.242
+After sweep 36 energy=-79.9515796661777  maxlinkdim=100 maxerr=2.96E-09 time=3.216
+After sweep 37 energy=-79.95157966617772  maxlinkdim=100 maxerr=2.96E-09 time=3.195
+After sweep 38 energy=-79.95157966617766  maxlinkdim=100 maxerr=2.96E-09 time=3.200
+After sweep 39 energy=-79.9515796661777  maxlinkdim=100 maxerr=2.96E-09 time=3.162
+After sweep 40 energy=-79.95157966617748  maxlinkdim=100 maxerr=2.96E-09 time=3.132
+After sweep 41 energy=-79.95157966617785  maxlinkdim=100 maxerr=2.96E-09 time=3.722
+After sweep 42 energy=-79.95157966617751  maxlinkdim=100 maxerr=2.96E-09 time=3.183
+After sweep 43 energy=-79.95157966617762  maxlinkdim=100 maxerr=2.96E-09 time=3.185
+After sweep 44 energy=-79.95157966617758  maxlinkdim=100 maxerr=2.96E-09 time=3.201
+After sweep 45 energy=-79.95157966617771  maxlinkdim=100 maxerr=2.96E-09 time=3.137
+After sweep 46 energy=-79.95157966617771  maxlinkdim=100 maxerr=2.96E-09 time=3.156
+After sweep 47 energy=-79.95157966617761  maxlinkdim=100 maxerr=2.96E-09 time=3.123
+After sweep 48 energy=-79.95157966617745  maxlinkdim=100 maxerr=2.96E-09 time=3.747
+After sweep 49 energy=-79.9515796661779  maxlinkdim=100 maxerr=2.96E-09 time=3.156
+After sweep 50 energy=-79.95157966617779  maxlinkdim=100 maxerr=2.96E-09 time=3.269
+After sweep 51 energy=-79.95157966617782  maxlinkdim=100 maxerr=2.96E-09 time=3.227
+After sweep 52 energy=-79.95157966617734  maxlinkdim=100 maxerr=2.96E-09 time=3.223
+After sweep 53 energy=-79.95157966617722  maxlinkdim=100 maxerr=2.96E-09 time=3.197
+After sweep 54 energy=-79.95157966617752  maxlinkdim=100 maxerr=2.96E-09 time=3.102
+After sweep 55 energy=-79.95157966617744  maxlinkdim=100 maxerr=2.96E-09 time=3.038
+After sweep 56 energy=-79.9515796661777  maxlinkdim=100 maxerr=2.96E-09 time=3.692
+After sweep 57 energy=-79.95157966617751  maxlinkdim=100 maxerr=2.96E-09 time=3.131
+After sweep 58 energy=-79.95157966617741  maxlinkdim=100 maxerr=2.96E-09 time=3.078
+After sweep 59 energy=-79.95157966617765  maxlinkdim=100 maxerr=2.96E-09 time=3.223
+After sweep 60 energy=-79.95157966617744  maxlinkdim=100 maxerr=2.96E-09 time=3.243
+After sweep 61 energy=-79.95157966617772  maxlinkdim=100 maxerr=2.96E-09 time=3.236
+After sweep 62 energy=-79.95157966617748  maxlinkdim=100 maxerr=2.96E-09 time=3.228
+After sweep 63 energy=-79.95157966617758  maxlinkdim=100 maxerr=2.96E-09 time=3.831
+After sweep 64 energy=-79.9515796661774  maxlinkdim=100 maxerr=2.96E-09 time=3.275
+After sweep 65 energy=-79.95157966617762  maxlinkdim=100 maxerr=2.96E-09 time=3.260
+After sweep 66 energy=-79.95157966617766  maxlinkdim=100 maxerr=2.96E-09 time=3.264
+After sweep 67 energy=-79.95157966617724  maxlinkdim=100 maxerr=2.96E-09 time=3.164
+After sweep 68 energy=-79.95157966617766  maxlinkdim=100 maxerr=2.96E-09 time=3.154
+After sweep 69 energy=-79.95157966617775  maxlinkdim=100 maxerr=2.96E-09 time=3.159
+After sweep 70 energy=-79.95157966617776  maxlinkdim=100 maxerr=2.96E-09 time=3.139
+After sweep 71 energy=-79.95157966617784  maxlinkdim=100 maxerr=2.96E-09 time=3.750
+After sweep 72 energy=-79.95157966617738  maxlinkdim=100 maxerr=2.96E-09 time=3.171
+After sweep 73 energy=-79.95157966617754  maxlinkdim=100 maxerr=2.96E-09 time=3.188
+After sweep 74 energy=-79.95157966617778  maxlinkdim=100 maxerr=2.96E-09 time=3.236
+After sweep 75 energy=-79.95157966617735  maxlinkdim=100 maxerr=2.96E-09 time=3.210
+After sweep 76 energy=-79.95157966617758  maxlinkdim=100 maxerr=2.96E-09 time=3.226
+After sweep 77 energy=-79.95157966617774  maxlinkdim=100 maxerr=2.96E-09 time=3.279
+After sweep 78 energy=-79.95157966617761  maxlinkdim=100 maxerr=2.96E-09 time=3.265
+After sweep 79 energy=-79.9515796661775  maxlinkdim=100 maxerr=2.96E-09 time=3.874
+After sweep 80 energy=-79.95157966617772  maxlinkdim=100 maxerr=2.96E-09 time=3.264
+After sweep 81 energy=-79.95157966617751  maxlinkdim=100 maxerr=2.96E-09 time=3.268
+After sweep 82 energy=-79.9515796661775  maxlinkdim=100 maxerr=2.96E-09 time=3.280
+After sweep 83 energy=-79.95157966617724  maxlinkdim=100 maxerr=2.96E-09 time=3.232
+After sweep 84 energy=-79.95157966617712  maxlinkdim=100 maxerr=2.96E-09 time=3.229
+After sweep 85 energy=-79.95157966617741  maxlinkdim=100 maxerr=2.96E-09 time=3.253
+After sweep 86 energy=-79.95157966617775  maxlinkdim=100 maxerr=2.96E-09 time=3.244
+After sweep 87 energy=-79.95157966617731  maxlinkdim=100 maxerr=2.96E-09 time=3.927
+After sweep 88 energy=-79.95157966617764  maxlinkdim=100 maxerr=2.96E-09 time=3.290
+After sweep 89 energy=-79.95157966617764  maxlinkdim=100 maxerr=2.96E-09 time=3.354
+After sweep 90 energy=-79.95157966617737  maxlinkdim=100 maxerr=2.96E-09 time=3.314
+After sweep 91 energy=-79.95157966617762  maxlinkdim=100 maxerr=2.96E-09 time=3.287
+After sweep 92 energy=-79.9515796661777  maxlinkdim=100 maxerr=2.96E-09 time=3.267
+After sweep 93 energy=-79.95157966617786  maxlinkdim=100 maxerr=2.96E-09 time=3.207
+After sweep 94 energy=-79.9515796661778  maxlinkdim=100 maxerr=2.96E-09 time=3.101
+After sweep 95 energy=-79.9515796661775  maxlinkdim=100 maxerr=2.96E-09 time=3.647
+After sweep 96 energy=-79.9515796661773  maxlinkdim=100 maxerr=2.96E-09 time=3.102
+After sweep 97 energy=-79.95157966617772  maxlinkdim=100 maxerr=2.96E-09 time=3.120
+After sweep 98 energy=-79.9515796661776  maxlinkdim=100 maxerr=2.96E-09 time=3.215
+After sweep 99 energy=-79.95157966617748  maxlinkdim=100 maxerr=2.96E-09 time=3.210
+After sweep 100 energy=-79.9515796661776  maxlinkdim=100 maxerr=2.96E-09 time=3.242
+maxdim:[200, 200, 200]After sweep 1 energy=-79.95157995416814  maxlinkdim=200 maxerr=1.88E-11 time=6.412
+After sweep 2 energy=-79.95157995447126  maxlinkdim=200 maxerr=1.85E-11 time=5.919
+After sweep 3 energy=-79.95157995447458  maxlinkdim=200 maxerr=1.88E-11 time=7.169
+After sweep 4 energy=-79.95157995447593  maxlinkdim=200 maxerr=1.88E-11 time=6.534
+After sweep 5 energy=-79.95157995447587  maxlinkdim=200 maxerr=1.88E-11 time=7.303
+After sweep 6 energy=-79.95157995447572  maxlinkdim=200 maxerr=1.88E-11 time=6.777
+After sweep 7 energy=-79.95157995447602  maxlinkdim=200 maxerr=1.88E-11 time=6.841
+After sweep 8 energy=-79.95157995447562  maxlinkdim=200 maxerr=1.88E-11 time=6.835
+After sweep 9 energy=-79.9515799544757  maxlinkdim=200 maxerr=1.88E-11 time=6.915
+After sweep 10 energy=-79.95157995447595  maxlinkdim=200 maxerr=1.88E-11 time=6.134
+After sweep 11 energy=-79.95157995447586  maxlinkdim=200 maxerr=1.88E-11 time=5.963
+After sweep 12 energy=-79.9515799544759  maxlinkdim=200 maxerr=1.88E-11 time=6.654
+After sweep 13 energy=-79.95157995447599  maxlinkdim=200 maxerr=1.88E-11 time=5.881
+After sweep 14 energy=-79.95157995447566  maxlinkdim=200 maxerr=1.88E-11 time=5.777
+After sweep 15 energy=-79.95157995447616  maxlinkdim=200 maxerr=1.88E-11 time=5.857
+After sweep 16 energy=-79.9515799544758  maxlinkdim=200 maxerr=1.88E-11 time=6.674
+After sweep 17 energy=-79.95157995447592  maxlinkdim=200 maxerr=1.88E-11 time=5.983
+After sweep 18 energy=-79.9515799544761  maxlinkdim=200 maxerr=1.88E-11 time=5.923
+After sweep 19 energy=-79.95157995447595  maxlinkdim=200 maxerr=1.88E-11 time=6.460
+After sweep 20 energy=-79.9515799544756  maxlinkdim=200 maxerr=1.88E-11 time=6.048
+After sweep 21 energy=-79.95157995447563  maxlinkdim=200 maxerr=1.88E-11 time=6.075
+After sweep 22 energy=-79.9515799544758  maxlinkdim=200 maxerr=1.88E-11 time=5.766
+After sweep 23 energy=-79.9515799544759  maxlinkdim=200 maxerr=1.88E-11 time=6.448
+After sweep 24 energy=-79.95157995447614  maxlinkdim=200 maxerr=1.88E-11 time=5.815
+After sweep 25 energy=-79.95157995447568  maxlinkdim=200 maxerr=1.88E-11 time=5.686
+After sweep 26 energy=-79.9515799544759  maxlinkdim=200 maxerr=1.88E-11 time=5.655
+After sweep 27 energy=-79.9515799544758  maxlinkdim=200 maxerr=1.88E-11 time=6.499
+After sweep 28 energy=-79.9515799544759  maxlinkdim=200 maxerr=1.88E-11 time=5.922
+After sweep 29 energy=-79.95157995447593  maxlinkdim=200 maxerr=1.88E-11 time=5.902
+After sweep 30 energy=-79.9515799544759  maxlinkdim=200 maxerr=1.88E-11 time=6.634
+After sweep 31 energy=-79.95157995447582  maxlinkdim=200 maxerr=1.88E-11 time=5.939
+After sweep 32 energy=-79.95157995447589  maxlinkdim=200 maxerr=1.88E-11 time=5.778
+After sweep 33 energy=-79.95157995447587  maxlinkdim=200 maxerr=1.88E-11 time=5.696
+After sweep 34 energy=-79.95157995447599  maxlinkdim=200 maxerr=1.88E-11 time=6.148
+After sweep 35 energy=-79.9515799544761  maxlinkdim=200 maxerr=1.88E-11 time=6.115
+After sweep 36 energy=-79.95157995447582  maxlinkdim=200 maxerr=1.88E-11 time=6.294
+After sweep 37 energy=-79.95157995447596  maxlinkdim=200 maxerr=1.88E-11 time=6.232
+After sweep 38 energy=-79.95157995447592  maxlinkdim=200 maxerr=1.88E-11 time=6.631
+After sweep 39 energy=-79.95157995447569  maxlinkdim=200 maxerr=1.88E-11 time=6.173
+After sweep 40 energy=-79.95157995447599  maxlinkdim=200 maxerr=1.88E-11 time=5.924
+After sweep 41 energy=-79.95157995447582  maxlinkdim=200 maxerr=1.88E-11 time=5.978
+After sweep 42 energy=-79.9515799544756  maxlinkdim=200 maxerr=1.88E-11 time=6.772
+After sweep 43 energy=-79.951579954476  maxlinkdim=200 maxerr=1.88E-11 time=6.149
+After sweep 44 energy=-79.9515799544757  maxlinkdim=200 maxerr=1.88E-11 time=6.165
+After sweep 45 energy=-79.95157995447595  maxlinkdim=200 maxerr=1.88E-11 time=6.200
+After sweep 46 energy=-79.95157995447593  maxlinkdim=200 maxerr=1.88E-11 time=6.892
+After sweep 47 energy=-79.9515799544757  maxlinkdim=200 maxerr=1.88E-11 time=6.051
+After sweep 48 energy=-79.95157995447552  maxlinkdim=200 maxerr=1.88E-11 time=6.007
+After sweep 49 energy=-79.95157995447549  maxlinkdim=200 maxerr=1.88E-11 time=7.016
+After sweep 50 energy=-79.95157995447583  maxlinkdim=200 maxerr=1.88E-11 time=7.221
+After sweep 51 energy=-79.95157995447562  maxlinkdim=200 maxerr=1.88E-11 time=6.378
+After sweep 52 energy=-79.95157995447589  maxlinkdim=200 maxerr=1.88E-11 time=6.251
+After sweep 53 energy=-79.95157995447572  maxlinkdim=200 maxerr=1.88E-11 time=6.873
+After sweep 54 energy=-79.9515799544759  maxlinkdim=200 maxerr=1.88E-11 time=7.662
+After sweep 55 energy=-79.95157995447603  maxlinkdim=200 maxerr=1.88E-11 time=6.733
+After sweep 56 energy=-79.95157995447596  maxlinkdim=200 maxerr=1.88E-11 time=6.997
+After sweep 57 energy=-79.95157995447619  maxlinkdim=200 maxerr=1.88E-11 time=6.182
+After sweep 58 energy=-79.95157995447575  maxlinkdim=200 maxerr=1.88E-11 time=6.536
+After sweep 59 energy=-79.95157995447583  maxlinkdim=200 maxerr=1.88E-11 time=5.546
+After sweep 60 energy=-79.9515799544758  maxlinkdim=200 maxerr=1.88E-11 time=5.669
+After sweep 61 energy=-79.95157995447613  maxlinkdim=200 maxerr=1.88E-11 time=5.654
+After sweep 62 energy=-79.95157995447589  maxlinkdim=200 maxerr=1.88E-11 time=6.234
+After sweep 63 energy=-79.95157995447616  maxlinkdim=200 maxerr=1.88E-11 time=5.536
+After sweep 64 energy=-79.95157995447565  maxlinkdim=200 maxerr=1.88E-11 time=5.322
+After sweep 65 energy=-79.95157995447599  maxlinkdim=200 maxerr=1.88E-11 time=5.368
+After sweep 66 energy=-79.95157995447605  maxlinkdim=200 maxerr=1.88E-11 time=5.921
+After sweep 67 energy=-79.95157995447624  maxlinkdim=200 maxerr=1.88E-11 time=5.508
+After sweep 68 energy=-79.95157995447556  maxlinkdim=200 maxerr=1.88E-11 time=5.545
+After sweep 69 energy=-79.95157995447575  maxlinkdim=200 maxerr=1.88E-11 time=5.623
+After sweep 70 energy=-79.95157995447568  maxlinkdim=200 maxerr=1.88E-11 time=6.296
+After sweep 71 energy=-79.95157995447605  maxlinkdim=200 maxerr=1.88E-11 time=5.541
+After sweep 72 energy=-79.95157995447599  maxlinkdim=200 maxerr=1.88E-11 time=5.619
+After sweep 73 energy=-79.95157995447565  maxlinkdim=200 maxerr=1.88E-11 time=5.479
+After sweep 74 energy=-79.95157995447579  maxlinkdim=200 maxerr=1.88E-11 time=6.090
+After sweep 75 energy=-79.95157995447603  maxlinkdim=200 maxerr=1.88E-11 time=5.519
+After sweep 76 energy=-79.95157995447579  maxlinkdim=200 maxerr=1.88E-11 time=5.626
+After sweep 77 energy=-79.95157995447565  maxlinkdim=200 maxerr=1.88E-11 time=5.676
+After sweep 78 energy=-79.95157995447579  maxlinkdim=200 maxerr=1.88E-11 time=5.562
+After sweep 79 energy=-79.9515799544754  maxlinkdim=200 maxerr=1.88E-11 time=6.269
+After sweep 80 energy=-79.95157995447585  maxlinkdim=200 maxerr=1.88E-11 time=5.535
+After sweep 81 energy=-79.95157995447602  maxlinkdim=200 maxerr=1.88E-11 time=5.457
+After sweep 82 energy=-79.9515799544758  maxlinkdim=200 maxerr=1.88E-11 time=5.462
+After sweep 83 energy=-79.95157995447596  maxlinkdim=200 maxerr=1.88E-11 time=6.049
+After sweep 84 energy=-79.95157995447572  maxlinkdim=200 maxerr=1.88E-11 time=5.589
+After sweep 85 energy=-79.95157995447583  maxlinkdim=200 maxerr=1.88E-11 time=5.551
+After sweep 86 energy=-79.9515799544754  maxlinkdim=200 maxerr=1.88E-11 time=5.513
+After sweep 87 energy=-79.95157995447589  maxlinkdim=200 maxerr=1.88E-11 time=5.881
+After sweep 88 energy=-79.95157995447585  maxlinkdim=200 maxerr=1.88E-11 time=5.478
+After sweep 89 energy=-79.95157995447556  maxlinkdim=200 maxerr=1.88E-11 time=5.354
+After sweep 90 energy=-79.95157995447578  maxlinkdim=200 maxerr=1.88E-11 time=5.287
+After sweep 91 energy=-79.95157995447607  maxlinkdim=200 maxerr=1.88E-11 time=5.413
+After sweep 92 energy=-79.9515799544758  maxlinkdim=200 maxerr=1.88E-11 time=5.897
+After sweep 93 energy=-79.95157995447558  maxlinkdim=200 maxerr=1.88E-11 time=5.580
+After sweep 94 energy=-79.95157995447633  maxlinkdim=200 maxerr=1.88E-11 time=5.519
+After sweep 95 energy=-79.95157995447562  maxlinkdim=200 maxerr=1.88E-11 time=5.472
+After sweep 96 energy=-79.95157995447576  maxlinkdim=200 maxerr=1.88E-11 time=6.014
+After sweep 97 energy=-79.95157995447573  maxlinkdim=200 maxerr=1.88E-11 time=5.301
+After sweep 98 energy=-79.95157995447629  maxlinkdim=200 maxerr=1.88E-11 time=5.267
+After sweep 99 energy=-79.95157995447589  maxlinkdim=200 maxerr=1.88E-11 time=5.504
+After sweep 100 energy=-79.95157995447572  maxlinkdim=200 maxerr=1.88E-11 time=6.207
+maxdim:[400, 400, 400]After sweep 1 energy=-79.9515799562278  maxlinkdim=400 maxerr=4.61E-14 time=12.857
+After sweep 2 energy=-79.95157995622868  maxlinkdim=400 maxerr=4.79E-14 time=15.460
+After sweep 3 energy=-79.95157995622884  maxlinkdim=400 maxerr=4.81E-14 time=15.583
+After sweep 4 energy=-79.95157995622823  maxlinkdim=400 maxerr=4.85E-14 time=18.417
+After sweep 5 energy=-79.95157995622806  maxlinkdim=400 maxerr=4.83E-14 time=18.412
+After sweep 6 energy=-79.95157995622881  maxlinkdim=400 maxerr=4.85E-14 time=17.316
+After sweep 7 energy=-79.95157995622854  maxlinkdim=400 maxerr=4.84E-14 time=17.341
+After sweep 8 energy=-79.95157995622876  maxlinkdim=400 maxerr=4.81E-14 time=17.820
+After sweep 9 energy=-79.95157995622867  maxlinkdim=400 maxerr=4.83E-14 time=17.694
+After sweep 10 energy=-79.95157995622839  maxlinkdim=400 maxerr=4.85E-14 time=17.777
+sites:Vector{Index{Vector{Pair{QN, Int64}}}}
+flux(psi0_init) = QN(("Nf",59,-1),("Sz",59))
+maxdim:[30, 30, 30]After sweep 1 energy=-21.122125220377356  maxlinkdim=30 maxerr=2.60E-08 time=0.895
+After sweep 2 energy=-25.81099665012836  maxlinkdim=30 maxerr=6.25E-07 time=1.003
+After sweep 3 energy=-29.980999813661033  maxlinkdim=30 maxerr=9.39E-07 time=1.092
+After sweep 4 energy=-33.28999533027095  maxlinkdim=30 maxerr=8.00E-07 time=1.222
+After sweep 5 energy=-35.90191028168891  maxlinkdim=30 maxerr=2.75E-07 time=1.288
+After sweep 6 energy=-39.46875992452117  maxlinkdim=30 maxerr=2.15E-07 time=1.422
+After sweep 7 energy=-41.789283820618714  maxlinkdim=30 maxerr=1.55E-07 time=1.432
+After sweep 8 energy=-44.30915238226471  maxlinkdim=30 maxerr=1.46E-07 time=1.506
+After sweep 9 energy=-46.52477956606372  maxlinkdim=30 maxerr=2.23E-07 time=1.562
+After sweep 10 energy=-48.79079155644607  maxlinkdim=30 maxerr=1.49E-07 time=1.654
+After sweep 11 energy=-50.760542855383314  maxlinkdim=30 maxerr=1.38E-07 time=1.700
+After sweep 12 energy=-53.03149585612987  maxlinkdim=30 maxerr=1.22E-07 time=1.686
+After sweep 13 energy=-54.67093169169854  maxlinkdim=30 maxerr=9.36E-08 time=1.703
+After sweep 14 energy=-56.75608199981811  maxlinkdim=30 maxerr=1.11E-07 time=1.727
+After sweep 15 energy=-58.436284212314575  maxlinkdim=30 maxerr=1.53E-07 time=1.757
+After sweep 16 energy=-59.95722821009218  maxlinkdim=30 maxerr=8.40E-08 time=1.798
+After sweep 17 energy=-61.50584521876291  maxlinkdim=30 maxerr=5.81E-08 time=1.800
+After sweep 18 energy=-62.86132744242831  maxlinkdim=30 maxerr=1.02E-07 time=1.790
+After sweep 19 energy=-64.25280746441318  maxlinkdim=30 maxerr=1.04E-07 time=1.800
+After sweep 20 energy=-65.4828102467274  maxlinkdim=30 maxerr=1.35E-07 time=1.797
+After sweep 21 energy=-66.63282849808591  maxlinkdim=30 maxerr=8.85E-08 time=1.834
+After sweep 22 energy=-67.68403762266523  maxlinkdim=30 maxerr=7.65E-08 time=1.817
+After sweep 23 energy=-68.53713840708363  maxlinkdim=30 maxerr=8.56E-08 time=1.829
+After sweep 24 energy=-69.91466700668965  maxlinkdim=30 maxerr=1.19E-07 time=1.860
+After sweep 25 energy=-70.65726101081384  maxlinkdim=30 maxerr=7.52E-08 time=1.849
+After sweep 26 energy=-71.6549617646252  maxlinkdim=30 maxerr=1.09E-07 time=1.856
+After sweep 27 energy=-72.26508736418188  maxlinkdim=30 maxerr=6.78E-08 time=1.828
+After sweep 28 energy=-73.43443769175587  maxlinkdim=30 maxerr=8.42E-08 time=1.832
+After sweep 29 energy=-74.06647588004219  maxlinkdim=30 maxerr=7.16E-08 time=1.855
+After sweep 30 energy=-74.51270324474682  maxlinkdim=30 maxerr=7.77E-08 time=1.843
+After sweep 31 energy=-75.25500092842891  maxlinkdim=30 maxerr=7.16E-08 time=1.875
+After sweep 32 energy=-76.38241207026378  maxlinkdim=30 maxerr=7.16E-07 time=1.776
+After sweep 33 energy=-76.83326592213251  maxlinkdim=30 maxerr=1.26E-06 time=1.707
+After sweep 34 energy=-77.242259467205  maxlinkdim=30 maxerr=4.92E-07 time=1.697
+After sweep 35 energy=-77.67450667174299  maxlinkdim=30 maxerr=1.31E-07 time=1.737
+After sweep 36 energy=-77.90875951136698  maxlinkdim=30 maxerr=1.80E-07 time=1.749
+After sweep 37 energy=-78.21191132465842  maxlinkdim=30 maxerr=3.26E-06 time=1.801
+After sweep 38 energy=-78.55339360013737  maxlinkdim=30 maxerr=5.09E-07 time=1.843
+After sweep 39 energy=-78.74474463678308  maxlinkdim=30 maxerr=1.38E-06 time=1.842
+After sweep 40 energy=-78.86778201668356  maxlinkdim=30 maxerr=2.66E-06 time=1.951
+After sweep 41 energy=-79.24335589709882  maxlinkdim=30 maxerr=1.14E-06 time=1.914
+After sweep 42 energy=-79.35919212284013  maxlinkdim=30 maxerr=2.91E-06 time=1.899
+After sweep 43 energy=-79.77385296078432  maxlinkdim=30 maxerr=1.43E-06 time=1.808
+After sweep 44 energy=-79.80421137006392  maxlinkdim=30 maxerr=1.65E-06 time=1.836
+After sweep 45 energy=-79.97471827811219  maxlinkdim=30 maxerr=4.48E-06 time=1.822
+After sweep 46 energy=-79.97821166001783  maxlinkdim=30 maxerr=9.56E-07 time=1.828
+After sweep 47 energy=-79.97834099195555  maxlinkdim=30 maxerr=8.02E-07 time=1.776
+After sweep 48 energy=-79.97835038566085  maxlinkdim=30 maxerr=8.04E-07 time=1.775
+After sweep 49 energy=-79.97835112188572  maxlinkdim=30 maxerr=8.07E-07 time=1.812
+After sweep 50 energy=-79.97835110518572  maxlinkdim=30 maxerr=8.08E-07 time=1.795
+After sweep 51 energy=-79.97835143808764  maxlinkdim=30 maxerr=8.08E-07 time=1.789
+After sweep 52 energy=-79.97835139940841  maxlinkdim=30 maxerr=8.08E-07 time=1.806
+After sweep 53 energy=-79.97835139852276  maxlinkdim=30 maxerr=8.08E-07 time=1.800
+After sweep 54 energy=-79.97835135817117  maxlinkdim=30 maxerr=8.08E-07 time=1.813
+After sweep 55 energy=-79.97835130039171  maxlinkdim=30 maxerr=8.08E-07 time=1.812
+After sweep 56 energy=-79.97835130192783  maxlinkdim=30 maxerr=8.08E-07 time=1.810
+After sweep 57 energy=-79.97835130176806  maxlinkdim=30 maxerr=8.08E-07 time=1.778
+After sweep 58 energy=-79.97835130170947  maxlinkdim=30 maxerr=8.08E-07 time=1.802
+After sweep 59 energy=-79.97835130169412  maxlinkdim=30 maxerr=8.08E-07 time=1.829
+After sweep 60 energy=-79.97835130169065  maxlinkdim=30 maxerr=8.08E-07 time=1.817
+After sweep 61 energy=-79.97835130169075  maxlinkdim=30 maxerr=8.08E-07 time=1.817
+After sweep 62 energy=-79.9783513016898  maxlinkdim=30 maxerr=8.08E-07 time=1.771
+After sweep 63 energy=-79.97835130168978  maxlinkdim=30 maxerr=8.08E-07 time=1.810
+After sweep 64 energy=-79.97835130169001  maxlinkdim=30 maxerr=8.08E-07 time=1.806
+After sweep 65 energy=-79.97835130169011  maxlinkdim=30 maxerr=8.08E-07 time=1.741
+After sweep 66 energy=-79.97835130168966  maxlinkdim=30 maxerr=8.08E-07 time=1.757
+After sweep 67 energy=-79.97835130168954  maxlinkdim=30 maxerr=8.08E-07 time=1.732
+After sweep 68 energy=-79.9783513016903  maxlinkdim=30 maxerr=8.08E-07 time=1.919
+After sweep 69 energy=-79.97835130168983  maxlinkdim=30 maxerr=8.08E-07 time=2.135
+After sweep 70 energy=-79.97835130168981  maxlinkdim=30 maxerr=8.08E-07 time=1.678
+After sweep 71 energy=-79.97835130169007  maxlinkdim=30 maxerr=8.08E-07 time=1.677
+After sweep 72 energy=-79.97835130169041  maxlinkdim=30 maxerr=8.08E-07 time=1.681
+After sweep 73 energy=-79.9783513016899  maxlinkdim=30 maxerr=8.08E-07 time=1.716
+After sweep 74 energy=-79.97835130168993  maxlinkdim=30 maxerr=8.08E-07 time=1.749
+After sweep 75 energy=-79.97835130169001  maxlinkdim=30 maxerr=8.08E-07 time=1.716
+After sweep 76 energy=-79.9783513016899  maxlinkdim=30 maxerr=8.08E-07 time=1.720
+After sweep 77 energy=-79.97835130169034  maxlinkdim=30 maxerr=8.08E-07 time=1.733
+After sweep 78 energy=-79.97835130169001  maxlinkdim=30 maxerr=8.08E-07 time=1.740
+After sweep 79 energy=-79.97835130168998  maxlinkdim=30 maxerr=8.08E-07 time=1.728
+After sweep 80 energy=-79.97835130168973  maxlinkdim=30 maxerr=8.08E-07 time=1.733
+After sweep 81 energy=-79.97835130168976  maxlinkdim=30 maxerr=8.08E-07 time=1.734
+After sweep 82 energy=-79.97835130168991  maxlinkdim=30 maxerr=8.08E-07 time=1.733
+After sweep 83 energy=-79.97835130169021  maxlinkdim=30 maxerr=8.08E-07 time=1.735
+After sweep 84 energy=-79.97835130168988  maxlinkdim=30 maxerr=8.08E-07 time=1.762
+After sweep 85 energy=-79.97835130168961  maxlinkdim=30 maxerr=8.08E-07 time=1.733
+After sweep 86 energy=-79.97835130169007  maxlinkdim=30 maxerr=8.08E-07 time=1.733
+After sweep 87 energy=-79.97835130169021  maxlinkdim=30 maxerr=8.08E-07 time=1.747
+After sweep 88 energy=-79.97835130168973  maxlinkdim=30 maxerr=8.08E-07 time=1.714
+After sweep 89 energy=-79.97835130168967  maxlinkdim=30 maxerr=8.08E-07 time=1.717
+After sweep 90 energy=-79.97835130169008  maxlinkdim=30 maxerr=8.08E-07 time=1.731
+After sweep 91 energy=-79.97835130168974  maxlinkdim=30 maxerr=8.08E-07 time=1.717
+After sweep 92 energy=-79.97835130168987  maxlinkdim=30 maxerr=8.08E-07 time=1.698
+After sweep 93 energy=-79.97835130169017  maxlinkdim=30 maxerr=8.08E-07 time=1.694
+After sweep 94 energy=-79.97835130169035  maxlinkdim=30 maxerr=8.08E-07 time=1.668
+After sweep 95 energy=-79.97835130169005  maxlinkdim=30 maxerr=8.08E-07 time=1.679
+After sweep 96 energy=-79.97835130168976  maxlinkdim=30 maxerr=8.08E-07 time=1.697
+After sweep 97 energy=-79.97835130169004  maxlinkdim=30 maxerr=8.08E-07 time=1.648
+After sweep 98 energy=-79.97835130168986  maxlinkdim=30 maxerr=8.08E-07 time=1.632
+After sweep 99 energy=-79.97835130168984  maxlinkdim=30 maxerr=8.08E-07 time=1.657
+After sweep 100 energy=-79.97835130169005  maxlinkdim=30 maxerr=8.08E-07 time=1.637
+maxdim:[50, 50, 50]After sweep 1 energy=-79.97843641815707  maxlinkdim=50 maxerr=3.91E-08 time=1.951
+After sweep 2 energy=-79.97843730628362  maxlinkdim=50 maxerr=5.22E-08 time=2.053
+After sweep 3 energy=-79.97843737085  maxlinkdim=50 maxerr=5.32E-08 time=2.021
+After sweep 4 energy=-79.97843737102187  maxlinkdim=50 maxerr=5.35E-08 time=2.007
+After sweep 5 energy=-79.97843737119078  maxlinkdim=50 maxerr=5.36E-08 time=2.002
+After sweep 6 energy=-79.97843737120277  maxlinkdim=50 maxerr=5.36E-08 time=1.999
+After sweep 7 energy=-79.97843737120428  maxlinkdim=50 maxerr=5.36E-08 time=1.990
+After sweep 8 energy=-79.9784373712044  maxlinkdim=50 maxerr=5.36E-08 time=2.090
+After sweep 9 energy=-79.97843737120479  maxlinkdim=50 maxerr=5.36E-08 time=2.102
+After sweep 10 energy=-79.97843737120468  maxlinkdim=50 maxerr=5.36E-08 time=2.078
+After sweep 11 energy=-79.97843737120458  maxlinkdim=50 maxerr=5.36E-08 time=2.822
+After sweep 12 energy=-79.97843737120452  maxlinkdim=50 maxerr=5.36E-08 time=2.180
+After sweep 13 energy=-79.97843737120476  maxlinkdim=50 maxerr=5.36E-08 time=2.162
+After sweep 14 energy=-79.97843737120475  maxlinkdim=50 maxerr=5.36E-08 time=2.173
+After sweep 15 energy=-79.97843737120489  maxlinkdim=50 maxerr=5.36E-08 time=2.158
+After sweep 16 energy=-79.97843737120486  maxlinkdim=50 maxerr=5.36E-08 time=2.141
+After sweep 17 energy=-79.97843737120479  maxlinkdim=50 maxerr=5.36E-08 time=2.119
+After sweep 18 energy=-79.97843737120482  maxlinkdim=50 maxerr=5.36E-08 time=2.113
+After sweep 19 energy=-79.97843737120465  maxlinkdim=50 maxerr=5.36E-08 time=2.110
+After sweep 20 energy=-79.97843737120446  maxlinkdim=50 maxerr=5.36E-08 time=2.077
+After sweep 21 energy=-79.9784373712044  maxlinkdim=50 maxerr=5.36E-08 time=2.070
+After sweep 22 energy=-79.9784373712049  maxlinkdim=50 maxerr=5.36E-08 time=2.019
+After sweep 23 energy=-79.97843737120465  maxlinkdim=50 maxerr=5.36E-08 time=2.003
+After sweep 24 energy=-79.97843737120476  maxlinkdim=50 maxerr=5.36E-08 time=2.023
+After sweep 25 energy=-79.97843737120475  maxlinkdim=50 maxerr=5.36E-08 time=2.015
+After sweep 26 energy=-79.97843737120498  maxlinkdim=50 maxerr=5.36E-08 time=2.036
+After sweep 27 energy=-79.97843737120438  maxlinkdim=50 maxerr=5.36E-08 time=2.033
+After sweep 28 energy=-79.9784373712047  maxlinkdim=50 maxerr=5.36E-08 time=2.001
+After sweep 29 energy=-79.97843737120478  maxlinkdim=50 maxerr=5.36E-08 time=2.027
+After sweep 30 energy=-79.9784373712046  maxlinkdim=50 maxerr=5.36E-08 time=2.018
+After sweep 31 energy=-79.97843737120473  maxlinkdim=50 maxerr=5.36E-08 time=2.028
+After sweep 32 energy=-79.9784373712045  maxlinkdim=50 maxerr=5.36E-08 time=2.015
+After sweep 33 energy=-79.97843737120473  maxlinkdim=50 maxerr=5.36E-08 time=2.053
+After sweep 34 energy=-79.97843737120459  maxlinkdim=50 maxerr=5.36E-08 time=2.028
+After sweep 35 energy=-79.97843737120493  maxlinkdim=50 maxerr=5.36E-08 time=2.052
+After sweep 36 energy=-79.97843737120479  maxlinkdim=50 maxerr=5.36E-08 time=2.094
+After sweep 37 energy=-79.9784373712049  maxlinkdim=50 maxerr=5.36E-08 time=2.084
+After sweep 38 energy=-79.97843737120498  maxlinkdim=50 maxerr=5.36E-08 time=2.108
+After sweep 39 energy=-79.97843737120472  maxlinkdim=50 maxerr=5.36E-08 time=2.109
+After sweep 40 energy=-79.9784373712046  maxlinkdim=50 maxerr=5.36E-08 time=2.130
+After sweep 41 energy=-79.97843737120456  maxlinkdim=50 maxerr=5.36E-08 time=2.152
+After sweep 42 energy=-79.97843737120456  maxlinkdim=50 maxerr=5.36E-08 time=2.857
+After sweep 43 energy=-79.97843737120475  maxlinkdim=50 maxerr=5.36E-08 time=2.175
+After sweep 44 energy=-79.97843737120476  maxlinkdim=50 maxerr=5.36E-08 time=2.156
+After sweep 45 energy=-79.97843737120475  maxlinkdim=50 maxerr=5.36E-08 time=2.196
+After sweep 46 energy=-79.97843737120456  maxlinkdim=50 maxerr=5.36E-08 time=2.148
+After sweep 47 energy=-79.97843737120463  maxlinkdim=50 maxerr=5.36E-08 time=2.142
+After sweep 48 energy=-79.97843737120436  maxlinkdim=50 maxerr=5.36E-08 time=2.153
+After sweep 49 energy=-79.9784373712047  maxlinkdim=50 maxerr=5.36E-08 time=2.133
+After sweep 50 energy=-79.97843737120472  maxlinkdim=50 maxerr=5.36E-08 time=2.113
+After sweep 51 energy=-79.97843737120454  maxlinkdim=50 maxerr=5.36E-08 time=2.087
+After sweep 52 energy=-79.9784373712046  maxlinkdim=50 maxerr=5.36E-08 time=2.077
+After sweep 53 energy=-79.97843737120482  maxlinkdim=50 maxerr=5.36E-08 time=2.024
+After sweep 54 energy=-79.97843737120448  maxlinkdim=50 maxerr=5.36E-08 time=2.027
+After sweep 55 energy=-79.97843737120469  maxlinkdim=50 maxerr=5.36E-08 time=2.010
+After sweep 56 energy=-79.97843737120488  maxlinkdim=50 maxerr=5.36E-08 time=1.975
+After sweep 57 energy=-79.97843737120468  maxlinkdim=50 maxerr=5.36E-08 time=1.994
+After sweep 58 energy=-79.97843737120483  maxlinkdim=50 maxerr=5.36E-08 time=1.994
+After sweep 59 energy=-79.9784373712045  maxlinkdim=50 maxerr=5.36E-08 time=2.016
+After sweep 60 energy=-79.97843737120482  maxlinkdim=50 maxerr=5.36E-08 time=2.035
+After sweep 61 energy=-79.97843737120476  maxlinkdim=50 maxerr=5.36E-08 time=2.075
+After sweep 62 energy=-79.97843737120488  maxlinkdim=50 maxerr=5.36E-08 time=2.091
+After sweep 63 energy=-79.97843737120473  maxlinkdim=50 maxerr=5.36E-08 time=2.060
+After sweep 64 energy=-79.97843737120441  maxlinkdim=50 maxerr=5.36E-08 time=2.082
+After sweep 65 energy=-79.97843737120482  maxlinkdim=50 maxerr=5.36E-08 time=2.092
+After sweep 66 energy=-79.97843737120476  maxlinkdim=50 maxerr=5.36E-08 time=2.056
+After sweep 67 energy=-79.9784373712047  maxlinkdim=50 maxerr=5.36E-08 time=2.100
+After sweep 68 energy=-79.9784373712047  maxlinkdim=50 maxerr=5.36E-08 time=2.091
+After sweep 69 energy=-79.97843737120465  maxlinkdim=50 maxerr=5.36E-08 time=2.081
+After sweep 70 energy=-79.9784373712046  maxlinkdim=50 maxerr=5.36E-08 time=2.088
+After sweep 71 energy=-79.97843737120431  maxlinkdim=50 maxerr=5.36E-08 time=2.045
+After sweep 72 energy=-79.97843737120459  maxlinkdim=50 maxerr=5.36E-08 time=2.049
+After sweep 73 energy=-79.97843737120456  maxlinkdim=50 maxerr=5.36E-08 time=2.059
+After sweep 74 energy=-79.97843737120441  maxlinkdim=50 maxerr=5.36E-08 time=2.730
+After sweep 75 energy=-79.97843737120509  maxlinkdim=50 maxerr=5.36E-08 time=2.048
+After sweep 76 energy=-79.9784373712045  maxlinkdim=50 maxerr=5.36E-08 time=2.035
+After sweep 77 energy=-79.97843737120498  maxlinkdim=50 maxerr=5.36E-08 time=2.031
+After sweep 78 energy=-79.97843737120472  maxlinkdim=50 maxerr=5.36E-08 time=2.047
+After sweep 79 energy=-79.97843737120454  maxlinkdim=50 maxerr=5.36E-08 time=2.144
+After sweep 80 energy=-79.97843737120472  maxlinkdim=50 maxerr=5.36E-08 time=2.106
+After sweep 81 energy=-79.97843737120469  maxlinkdim=50 maxerr=5.36E-08 time=2.121
+After sweep 82 energy=-79.97843737120502  maxlinkdim=50 maxerr=5.36E-08 time=2.100
+After sweep 83 energy=-79.97843737120456  maxlinkdim=50 maxerr=5.36E-08 time=2.082
+After sweep 84 energy=-79.97843737120478  maxlinkdim=50 maxerr=5.36E-08 time=2.083
+After sweep 85 energy=-79.97843737120444  maxlinkdim=50 maxerr=5.36E-08 time=2.063
+After sweep 86 energy=-79.97843737120459  maxlinkdim=50 maxerr=5.36E-08 time=2.050
+After sweep 87 energy=-79.9784373712048  maxlinkdim=50 maxerr=5.36E-08 time=2.061
+After sweep 88 energy=-79.97843737120513  maxlinkdim=50 maxerr=5.36E-08 time=2.047
+After sweep 89 energy=-79.97843737120525  maxlinkdim=50 maxerr=5.36E-08 time=2.048
+After sweep 90 energy=-79.97843737120468  maxlinkdim=50 maxerr=5.36E-08 time=2.015
+After sweep 91 energy=-79.97843737120498  maxlinkdim=50 maxerr=5.36E-08 time=2.017
+After sweep 92 energy=-79.97843737120506  maxlinkdim=50 maxerr=5.36E-08 time=2.002
+After sweep 93 energy=-79.97843737120472  maxlinkdim=50 maxerr=5.36E-08 time=2.000
+After sweep 94 energy=-79.97843737120438  maxlinkdim=50 maxerr=5.36E-08 time=2.000
+After sweep 95 energy=-79.97843737120475  maxlinkdim=50 maxerr=5.36E-08 time=1.956
+After sweep 96 energy=-79.97843737120483  maxlinkdim=50 maxerr=5.36E-08 time=2.018
+After sweep 97 energy=-79.97843737120463  maxlinkdim=50 maxerr=5.36E-08 time=2.096
+After sweep 98 energy=-79.97843737120475  maxlinkdim=50 maxerr=5.36E-08 time=2.103
+After sweep 99 energy=-79.97843737120465  maxlinkdim=50 maxerr=5.36E-08 time=2.120
+After sweep 100 energy=-79.97843737120448  maxlinkdim=50 maxerr=5.36E-08 time=2.100
+maxdim:[100, 100, 100]After sweep 1 energy=-79.97844186473766  maxlinkdim=100 maxerr=5.77E-10 time=2.789
+After sweep 2 energy=-79.97844187469092  maxlinkdim=100 maxerr=6.51E-10 time=3.028
+After sweep 3 energy=-79.9784418745788  maxlinkdim=100 maxerr=6.64E-10 time=3.851
+After sweep 4 energy=-79.97844187457311  maxlinkdim=100 maxerr=6.68E-10 time=3.317
+After sweep 5 energy=-79.97844187457822  maxlinkdim=100 maxerr=6.68E-10 time=3.247
+After sweep 6 energy=-79.97844187457852  maxlinkdim=100 maxerr=6.68E-10 time=3.211
+After sweep 7 energy=-79.9784418745783  maxlinkdim=100 maxerr=6.68E-10 time=3.115
+After sweep 8 energy=-79.97844187457841  maxlinkdim=100 maxerr=6.68E-10 time=3.113
+After sweep 9 energy=-79.97844187457864  maxlinkdim=100 maxerr=6.68E-10 time=3.080
+After sweep 10 energy=-79.97844187457838  maxlinkdim=100 maxerr=6.68E-10 time=3.031
+After sweep 11 energy=-79.97844187457869  maxlinkdim=100 maxerr=6.68E-10 time=3.076
+After sweep 12 energy=-79.97844187457855  maxlinkdim=100 maxerr=6.68E-10 time=3.038
+After sweep 13 energy=-79.9784418745782  maxlinkdim=100 maxerr=6.68E-10 time=3.047
+After sweep 14 energy=-79.9784418745786  maxlinkdim=100 maxerr=6.68E-10 time=3.068
+After sweep 15 energy=-79.97844187457851  maxlinkdim=100 maxerr=6.68E-10 time=3.046
+After sweep 16 energy=-79.97844187457845  maxlinkdim=100 maxerr=6.68E-10 time=3.485
+After sweep 17 energy=-79.97844187457852  maxlinkdim=100 maxerr=6.68E-10 time=3.567
+After sweep 18 energy=-79.97844187457834  maxlinkdim=100 maxerr=6.68E-10 time=3.240
+After sweep 19 energy=-79.97844187457845  maxlinkdim=100 maxerr=6.68E-10 time=3.221
+After sweep 20 energy=-79.97844187457838  maxlinkdim=100 maxerr=6.68E-10 time=3.193
+After sweep 21 energy=-79.97844187457834  maxlinkdim=100 maxerr=6.68E-10 time=3.167
+After sweep 22 energy=-79.97844187457858  maxlinkdim=100 maxerr=6.68E-10 time=3.167
+After sweep 23 energy=-79.97844187457886  maxlinkdim=100 maxerr=6.68E-10 time=3.118
+After sweep 24 energy=-79.97844187457834  maxlinkdim=100 maxerr=6.68E-10 time=3.118
+After sweep 25 energy=-79.97844187457865  maxlinkdim=100 maxerr=6.68E-10 time=3.059
+After sweep 26 energy=-79.9784418745788  maxlinkdim=100 maxerr=6.68E-10 time=3.060
+After sweep 27 energy=-79.97844187457862  maxlinkdim=100 maxerr=6.68E-10 time=3.068
+After sweep 28 energy=-79.97844187457834  maxlinkdim=100 maxerr=6.68E-10 time=3.110
+After sweep 29 energy=-79.97844187457834  maxlinkdim=100 maxerr=6.68E-10 time=3.138
+After sweep 30 energy=-79.97844187457848  maxlinkdim=100 maxerr=6.68E-10 time=3.608
+After sweep 31 energy=-79.97844187457855  maxlinkdim=100 maxerr=6.68E-10 time=3.492
+After sweep 32 energy=-79.97844187457862  maxlinkdim=100 maxerr=6.68E-10 time=3.203
+After sweep 33 energy=-79.97844187457841  maxlinkdim=100 maxerr=6.68E-10 time=3.157
+After sweep 34 energy=-79.97844187457893  maxlinkdim=100 maxerr=6.68E-10 time=3.088
+After sweep 35 energy=-79.97844187457864  maxlinkdim=100 maxerr=6.68E-10 time=3.071
+After sweep 36 energy=-79.9784418745786  maxlinkdim=100 maxerr=6.68E-10 time=2.966
+After sweep 37 energy=-79.9784418745784  maxlinkdim=100 maxerr=6.68E-10 time=3.082
+After sweep 38 energy=-79.97844187457846  maxlinkdim=100 maxerr=6.68E-10 time=3.040
+After sweep 39 energy=-79.97844187457866  maxlinkdim=100 maxerr=6.68E-10 time=3.015
+After sweep 40 energy=-79.97844187457834  maxlinkdim=100 maxerr=6.68E-10 time=3.085
+After sweep 41 energy=-79.97844187457848  maxlinkdim=100 maxerr=6.68E-10 time=3.026
+After sweep 42 energy=-79.97844187457868  maxlinkdim=100 maxerr=6.68E-10 time=3.059
+After sweep 43 energy=-79.97844187457888  maxlinkdim=100 maxerr=6.68E-10 time=3.072
+After sweep 44 energy=-79.97844187457835  maxlinkdim=100 maxerr=6.68E-10 time=3.070
+After sweep 45 energy=-79.97844187457811  maxlinkdim=100 maxerr=6.68E-10 time=3.822
+After sweep 46 energy=-79.97844187457845  maxlinkdim=100 maxerr=6.68E-10 time=3.247
+After sweep 47 energy=-79.97844187457862  maxlinkdim=100 maxerr=6.68E-10 time=3.184
+After sweep 48 energy=-79.97844187457869  maxlinkdim=100 maxerr=6.68E-10 time=3.212
+After sweep 49 energy=-79.97844187457882  maxlinkdim=100 maxerr=6.68E-10 time=3.134
+After sweep 50 energy=-79.97844187457848  maxlinkdim=100 maxerr=6.68E-10 time=3.138
+After sweep 51 energy=-79.97844187457848  maxlinkdim=100 maxerr=6.68E-10 time=3.078
+After sweep 52 energy=-79.97844187457886  maxlinkdim=100 maxerr=6.68E-10 time=3.061
+After sweep 53 energy=-79.97844187457852  maxlinkdim=100 maxerr=6.68E-10 time=3.001
+After sweep 54 energy=-79.97844187457875  maxlinkdim=100 maxerr=6.68E-10 time=2.905
+After sweep 55 energy=-79.9784418745784  maxlinkdim=100 maxerr=6.68E-10 time=2.858
+After sweep 56 energy=-79.97844187457852  maxlinkdim=100 maxerr=6.68E-10 time=2.946
+After sweep 57 energy=-79.97844187457888  maxlinkdim=100 maxerr=6.68E-10 time=3.048
+After sweep 58 energy=-79.97844187457886  maxlinkdim=100 maxerr=6.68E-10 time=3.046
+After sweep 59 energy=-79.97844187457854  maxlinkdim=100 maxerr=6.68E-10 time=3.159
+After sweep 60 energy=-79.97844187457842  maxlinkdim=100 maxerr=6.68E-10 time=3.731
+After sweep 61 energy=-79.97844187457866  maxlinkdim=100 maxerr=6.68E-10 time=3.182
+After sweep 62 energy=-79.97844187457865  maxlinkdim=100 maxerr=6.68E-10 time=3.141
+After sweep 63 energy=-79.97844187457802  maxlinkdim=100 maxerr=6.68E-10 time=3.088
+After sweep 64 energy=-79.97844187457873  maxlinkdim=100 maxerr=6.68E-10 time=3.064
+After sweep 65 energy=-79.97844187457883  maxlinkdim=100 maxerr=6.68E-10 time=3.037
+After sweep 66 energy=-79.97844187457835  maxlinkdim=100 maxerr=6.68E-10 time=2.953
+After sweep 67 energy=-79.97844187457858  maxlinkdim=100 maxerr=6.68E-10 time=2.926
+After sweep 68 energy=-79.97844187457844  maxlinkdim=100 maxerr=6.68E-10 time=2.823
+After sweep 69 energy=-79.97844187457855  maxlinkdim=100 maxerr=6.68E-10 time=2.936
+After sweep 70 energy=-79.97844187457815  maxlinkdim=100 maxerr=6.68E-10 time=2.928
+After sweep 71 energy=-79.97844187457854  maxlinkdim=100 maxerr=6.68E-10 time=2.881
+After sweep 72 energy=-79.9784418745786  maxlinkdim=100 maxerr=6.68E-10 time=2.807
+After sweep 73 energy=-79.97844187457895  maxlinkdim=100 maxerr=6.68E-10 time=2.848
+After sweep 74 energy=-79.97844187457842  maxlinkdim=100 maxerr=6.68E-10 time=3.549
+After sweep 75 energy=-79.97844187457872  maxlinkdim=100 maxerr=6.68E-10 time=3.053
+After sweep 76 energy=-79.97844187457858  maxlinkdim=100 maxerr=6.68E-10 time=3.070
+After sweep 77 energy=-79.97844187457865  maxlinkdim=100 maxerr=6.68E-10 time=3.065
+After sweep 78 energy=-79.97844187457854  maxlinkdim=100 maxerr=6.68E-10 time=3.045
+After sweep 79 energy=-79.97844187457896  maxlinkdim=100 maxerr=6.68E-10 time=2.985
+After sweep 80 energy=-79.97844187457837  maxlinkdim=100 maxerr=6.68E-10 time=2.960
+After sweep 81 energy=-79.97844187457831  maxlinkdim=100 maxerr=6.68E-10 time=2.916
+After sweep 82 energy=-79.97844187457851  maxlinkdim=100 maxerr=6.68E-10 time=2.933
+After sweep 83 energy=-79.97844187457848  maxlinkdim=100 maxerr=6.68E-10 time=2.868
+After sweep 84 energy=-79.97844187457883  maxlinkdim=100 maxerr=6.68E-10 time=2.924
+After sweep 85 energy=-79.97844187457846  maxlinkdim=100 maxerr=6.68E-10 time=2.950
+After sweep 86 energy=-79.97844187457888  maxlinkdim=100 maxerr=6.68E-10 time=2.922
+After sweep 87 energy=-79.97844187457837  maxlinkdim=100 maxerr=6.68E-10 time=2.911
+After sweep 88 energy=-79.97844187457841  maxlinkdim=100 maxerr=6.68E-10 time=2.991
+After sweep 89 energy=-79.97844187457886  maxlinkdim=100 maxerr=6.68E-10 time=3.035
+After sweep 90 energy=-79.97844187457862  maxlinkdim=100 maxerr=6.68E-10 time=3.742
+After sweep 91 energy=-79.97844187457851  maxlinkdim=100 maxerr=6.68E-10 time=3.099
+After sweep 92 energy=-79.97844187457868  maxlinkdim=100 maxerr=6.68E-10 time=3.057
+After sweep 93 energy=-79.97844187457842  maxlinkdim=100 maxerr=6.68E-10 time=3.002
+After sweep 94 energy=-79.97844187457862  maxlinkdim=100 maxerr=6.68E-10 time=2.911
+After sweep 95 energy=-79.97844187457828  maxlinkdim=100 maxerr=6.68E-10 time=2.897
+After sweep 96 energy=-79.97844187457862  maxlinkdim=100 maxerr=6.68E-10 time=2.910
+After sweep 97 energy=-79.97844187457854  maxlinkdim=100 maxerr=6.68E-10 time=2.827
+After sweep 98 energy=-79.97844187457841  maxlinkdim=100 maxerr=6.68E-10 time=2.727
+After sweep 99 energy=-79.97844187457846  maxlinkdim=100 maxerr=6.68E-10 time=2.840
+After sweep 100 energy=-79.97844187457879  maxlinkdim=100 maxerr=6.68E-10 time=2.838
+maxdim:[200, 200, 200]After sweep 1 energy=-79.978441923392  maxlinkdim=200 maxerr=2.41E-12 time=5.189
+After sweep 2 energy=-79.97844192346493  maxlinkdim=200 maxerr=2.68E-12 time=5.875
+After sweep 3 energy=-79.97844192346814  maxlinkdim=200 maxerr=2.66E-12 time=5.202
+After sweep 4 energy=-79.97844192346892  maxlinkdim=200 maxerr=2.66E-12 time=5.165
+After sweep 5 energy=-79.97844192346881  maxlinkdim=200 maxerr=2.66E-12 time=5.090
+After sweep 6 energy=-79.97844192346842  maxlinkdim=200 maxerr=2.66E-12 time=4.920
+After sweep 7 energy=-79.97844192346841  maxlinkdim=200 maxerr=2.66E-12 time=4.859
+After sweep 8 energy=-79.97844192346867  maxlinkdim=200 maxerr=2.66E-12 time=4.808
+After sweep 9 energy=-79.97844192346842  maxlinkdim=200 maxerr=2.66E-12 time=5.754
+After sweep 10 energy=-79.97844192346827  maxlinkdim=200 maxerr=2.66E-12 time=5.234
+After sweep 11 energy=-79.97844192346882  maxlinkdim=200 maxerr=2.66E-12 time=5.292
+After sweep 12 energy=-79.97844192346818  maxlinkdim=200 maxerr=2.66E-12 time=5.164
+After sweep 13 energy=-79.97844192346831  maxlinkdim=200 maxerr=2.66E-12 time=4.975
+After sweep 14 energy=-79.97844192346851  maxlinkdim=200 maxerr=2.66E-12 time=4.968
+After sweep 15 energy=-79.97844192346821  maxlinkdim=200 maxerr=2.66E-12 time=4.977
+After sweep 16 energy=-79.97844192346858  maxlinkdim=200 maxerr=2.66E-12 time=5.862
+After sweep 17 energy=-79.97844192346857  maxlinkdim=200 maxerr=2.66E-12 time=5.354
+After sweep 18 energy=-79.97844192346817  maxlinkdim=200 maxerr=2.66E-12 time=5.288
+After sweep 19 energy=-79.97844192346854  maxlinkdim=200 maxerr=2.66E-12 time=5.276
+After sweep 20 energy=-79.97844192346861  maxlinkdim=200 maxerr=2.66E-12 time=5.141
+After sweep 21 energy=-79.97844192346854  maxlinkdim=200 maxerr=2.66E-12 time=5.043
+After sweep 22 energy=-79.97844192346847  maxlinkdim=200 maxerr=2.66E-12 time=5.039
+After sweep 23 energy=-79.97844192346872  maxlinkdim=200 maxerr=2.66E-12 time=6.013
+After sweep 24 energy=-79.97844192346848  maxlinkdim=200 maxerr=2.66E-12 time=5.416
+After sweep 25 energy=-79.97844192346867  maxlinkdim=200 maxerr=2.66E-12 time=5.383
+After sweep 26 energy=-79.97844192346842  maxlinkdim=200 maxerr=2.66E-12 time=5.355
+After sweep 27 energy=-79.97844192346867  maxlinkdim=200 maxerr=2.66E-12 time=5.299
+After sweep 28 energy=-79.9784419234685  maxlinkdim=200 maxerr=2.66E-12 time=5.253
+After sweep 29 energy=-79.97844192346868  maxlinkdim=200 maxerr=2.66E-12 time=5.217
+After sweep 30 energy=-79.97844192346822  maxlinkdim=200 maxerr=2.66E-12 time=6.009
+After sweep 31 energy=-79.97844192346851  maxlinkdim=200 maxerr=2.66E-12 time=5.311
+After sweep 32 energy=-79.9784419234687  maxlinkdim=200 maxerr=2.66E-12 time=5.232
+After sweep 33 energy=-79.97844192346838  maxlinkdim=200 maxerr=2.66E-12 time=5.203
+After sweep 34 energy=-79.97844192346841  maxlinkdim=200 maxerr=2.66E-12 time=5.226
+After sweep 35 energy=-79.97844192346848  maxlinkdim=200 maxerr=2.66E-12 time=5.204
+After sweep 36 energy=-79.97844192346828  maxlinkdim=200 maxerr=2.66E-12 time=5.194
+After sweep 37 energy=-79.97844192346861  maxlinkdim=200 maxerr=2.66E-12 time=5.802
+After sweep 38 energy=-79.97844192346872  maxlinkdim=200 maxerr=2.66E-12 time=5.361
+After sweep 39 energy=-79.9784419234687  maxlinkdim=200 maxerr=2.66E-12 time=5.381
+After sweep 40 energy=-79.97844192346831  maxlinkdim=200 maxerr=2.66E-12 time=5.336
+After sweep 41 energy=-79.97844192346838  maxlinkdim=200 maxerr=2.66E-12 time=5.290
+After sweep 42 energy=-79.97844192346807  maxlinkdim=200 maxerr=2.66E-12 time=5.196
+After sweep 43 energy=-79.97844192346872  maxlinkdim=200 maxerr=2.66E-12 time=5.122
+After sweep 44 energy=-79.97844192346844  maxlinkdim=200 maxerr=2.66E-12 time=5.659
+After sweep 45 energy=-79.97844192346852  maxlinkdim=200 maxerr=2.66E-12 time=5.277
+After sweep 46 energy=-79.9784419234688  maxlinkdim=200 maxerr=2.66E-12 time=5.321
+After sweep 47 energy=-79.97844192346875  maxlinkdim=200 maxerr=2.66E-12 time=5.337
+After sweep 48 energy=-79.97844192346821  maxlinkdim=200 maxerr=2.66E-12 time=5.289
+After sweep 49 energy=-79.97844192346807  maxlinkdim=200 maxerr=2.66E-12 time=5.276
+After sweep 50 energy=-79.97844192346878  maxlinkdim=200 maxerr=2.66E-12 time=5.241
+After sweep 51 energy=-79.9784419234685  maxlinkdim=200 maxerr=2.66E-12 time=5.769
+After sweep 52 energy=-79.97844192346847  maxlinkdim=200 maxerr=2.66E-12 time=5.254
+After sweep 53 energy=-79.97844192346844  maxlinkdim=200 maxerr=2.66E-12 time=5.132
+After sweep 54 energy=-79.9784419234686  maxlinkdim=200 maxerr=2.66E-12 time=5.087
+After sweep 55 energy=-79.97844192346851  maxlinkdim=200 maxerr=2.66E-12 time=5.076
+After sweep 56 energy=-79.9784419234686  maxlinkdim=200 maxerr=2.66E-12 time=5.143
+After sweep 57 energy=-79.97844192346815  maxlinkdim=200 maxerr=2.66E-12 time=5.270
+After sweep 58 energy=-79.97844192346838  maxlinkdim=200 maxerr=2.66E-12 time=5.346
+After sweep 59 energy=-79.97844192346858  maxlinkdim=200 maxerr=2.66E-12 time=5.792
+After sweep 60 energy=-79.97844192346842  maxlinkdim=200 maxerr=2.66E-12 time=5.379
+After sweep 61 energy=-79.97844192346852  maxlinkdim=200 maxerr=2.66E-12 time=5.317
+After sweep 62 energy=-79.97844192346832  maxlinkdim=200 maxerr=2.66E-12 time=5.268
+After sweep 63 energy=-79.97844192346861  maxlinkdim=200 maxerr=2.66E-12 time=5.220
+After sweep 64 energy=-79.9784419234684  maxlinkdim=200 maxerr=2.66E-12 time=5.275
+After sweep 65 energy=-79.97844192346841  maxlinkdim=200 maxerr=2.66E-12 time=5.207
+After sweep 66 energy=-79.97844192346881  maxlinkdim=200 maxerr=2.66E-12 time=5.991
+After sweep 67 energy=-79.97844192346842  maxlinkdim=200 maxerr=2.66E-12 time=5.381
+After sweep 68 energy=-79.9784419234684  maxlinkdim=200 maxerr=2.66E-12 time=5.285
+After sweep 69 energy=-79.97844192346857  maxlinkdim=200 maxerr=2.66E-12 time=5.234
+After sweep 70 energy=-79.97844192346827  maxlinkdim=200 maxerr=2.66E-12 time=5.225
+After sweep 71 energy=-79.97844192346865  maxlinkdim=200 maxerr=2.66E-12 time=5.201
+After sweep 72 energy=-79.97844192346852  maxlinkdim=200 maxerr=2.66E-12 time=5.201
+After sweep 73 energy=-79.97844192346876  maxlinkdim=200 maxerr=2.66E-12 time=5.871
+After sweep 74 energy=-79.97844192346852  maxlinkdim=200 maxerr=2.66E-12 time=5.383
+After sweep 75 energy=-79.97844192346793  maxlinkdim=200 maxerr=2.66E-12 time=5.328
+After sweep 76 energy=-79.9784419234689  maxlinkdim=200 maxerr=2.66E-12 time=5.288
+After sweep 77 energy=-79.97844192346854  maxlinkdim=200 maxerr=2.66E-12 time=5.242
+After sweep 78 energy=-79.97844192346875  maxlinkdim=200 maxerr=2.66E-12 time=5.091
+After sweep 79 energy=-79.97844192346865  maxlinkdim=200 maxerr=2.66E-12 time=5.021
+After sweep 80 energy=-79.97844192346835  maxlinkdim=200 maxerr=2.66E-12 time=4.949
+After sweep 81 energy=-79.97844192346857  maxlinkdim=200 maxerr=2.66E-12 time=6.016
+After sweep 82 energy=-79.97844192346848  maxlinkdim=200 maxerr=2.66E-12 time=5.302
+After sweep 83 energy=-79.97844192346858  maxlinkdim=200 maxerr=2.66E-12 time=5.230
+After sweep 84 energy=-79.97844192346857  maxlinkdim=200 maxerr=2.66E-12 time=5.178
+After sweep 85 energy=-79.97844192346811  maxlinkdim=200 maxerr=2.66E-12 time=5.196
+After sweep 86 energy=-79.97844192346834  maxlinkdim=200 maxerr=2.66E-12 time=5.227
+After sweep 87 energy=-79.97844192346837  maxlinkdim=200 maxerr=2.66E-12 time=5.093
+After sweep 88 energy=-79.97844192346818  maxlinkdim=200 maxerr=2.66E-12 time=5.400
+After sweep 89 energy=-79.97844192346855  maxlinkdim=200 maxerr=2.66E-12 time=5.209
+After sweep 90 energy=-79.97844192346835  maxlinkdim=200 maxerr=2.66E-12 time=5.277
+After sweep 91 energy=-79.97844192346838  maxlinkdim=200 maxerr=2.66E-12 time=5.227
+After sweep 92 energy=-79.97844192346886  maxlinkdim=200 maxerr=2.66E-12 time=5.333
+After sweep 93 energy=-79.9784419234684  maxlinkdim=200 maxerr=2.66E-12 time=5.461
+After sweep 94 energy=-79.97844192346858  maxlinkdim=200 maxerr=2.66E-12 time=5.182
+After sweep 95 energy=-79.97844192346832  maxlinkdim=200 maxerr=2.66E-12 time=5.206
+After sweep 96 energy=-79.97844192346861  maxlinkdim=200 maxerr=2.66E-12 time=6.125
+After sweep 97 energy=-79.97844192346871  maxlinkdim=200 maxerr=2.66E-12 time=5.370
+After sweep 98 energy=-79.9784419234684  maxlinkdim=200 maxerr=2.66E-12 time=5.347
+After sweep 99 energy=-79.9784419234682  maxlinkdim=200 maxerr=2.66E-12 time=5.282
+After sweep 100 energy=-79.9784419234686  maxlinkdim=200 maxerr=2.66E-12 time=5.280
+maxdim:[400, 400, 400]After sweep 1 energy=-79.97844192383413  maxlinkdim=400 maxerr=6.70E-15 time=13.237
+After sweep 2 energy=-79.97844192383442  maxlinkdim=400 maxerr=6.90E-15 time=13.603
+After sweep 3 energy=-79.97844192383411  maxlinkdim=400 maxerr=6.96E-15 time=13.322
+After sweep 4 energy=-79.97844192383447  maxlinkdim=400 maxerr=6.85E-15 time=14.305
+After sweep 5 energy=-79.9784419238341  maxlinkdim=400 maxerr=6.95E-15 time=13.300
+After sweep 6 energy=-79.97844192383408  maxlinkdim=400 maxerr=6.81E-15 time=13.078
+After sweep 7 energy=-79.97844192383431  maxlinkdim=400 maxerr=6.93E-15 time=13.672
+After sweep 8 energy=-79.9784419238341  maxlinkdim=400 maxerr=6.90E-15 time=13.356
+After sweep 9 energy=-79.9784419238342  maxlinkdim=400 maxerr=6.97E-15 time=13.397
+After sweep 10 energy=-79.97844192383442  maxlinkdim=400 maxerr=6.75E-15 time=17.411

@@ -1,0 +1,8 @@
+#!/bin/sh
+#SBATCH -J python
+#SBATCH -N 1
+#SBATCH --ntasks-per-node=4
+#SBATCH -p node6348
+ 
+# PATH
+OMP_NUM_THREADS=4 julia calc_correlation.jl >out 2>err

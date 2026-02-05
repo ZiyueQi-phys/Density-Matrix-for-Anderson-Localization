@@ -1,0 +1,8 @@
+#!/bin/sh
+#SBATCH -J python
+#SBATCH -N 1
+#SBATCH --ntasks-per-node=32
+#SBATCH -p regular
+ 
+# PATH
+python single_2D_corr.py  >out 2>err

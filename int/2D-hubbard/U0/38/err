@@ -1,0 +1,191 @@
+/public/home/zyqi/anderson/single_DM/numba/2D/358/2000iter/38/single_2D_corr.py:22: NumbaDeprecationWarning: The 'nopython' keyword argument was not supplied to the 'numba.jit' decorator. The implicit default value for this argument is currently False, but it will be changed to True in Numba 0.59.0. See https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-object-mode-fall-back-behaviour-when-using-jit for details.
+  @nb.jit()
+/public/home/zyqi/anderson/single_DM/numba/2D/358/2000iter/38/single_2D_corr.py:82: NumbaDeprecationWarning: The 'nopython' keyword argument was not supplied to the 'numba.jit' decorator. The implicit default value for this argument is currently False, but it will be changed to True in Numba 0.59.0. See https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-object-mode-fall-back-behaviour-when-using-jit for details.
+  @nb.jit()
+/public/home/zyqi/anderson/single_DM/numba/2D/358/2000iter/38/single_2D_corr.py:97: NumbaDeprecationWarning: The 'nopython' keyword argument was not supplied to the 'numba.jit' decorator. The implicit default value for this argument is currently False, but it will be changed to True in Numba 0.59.0. See https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-object-mode-fall-back-behaviour-when-using-jit for details.
+  @nb.jit()
+/public/home/zyqi/anderson/single_DM/numba/2D/358/2000iter/38/single_2D_corr.py:22: NumbaWarning: 
+Compilation is falling back to object mode WITH looplifting enabled because Function "get_Ham_sprase" failed type inference due to: Untyped global name 'csr_matrix': Cannot determine Numba type of <class 'type'>
+
+File "single_2D_corr.py", line 78:
+def get_Ham_sprase(g,W1,W2,ndim1,ndim2):
+    <source elided>
+
+    Ham_sparse = csr_matrix((data, (row_indices, col_indices)), shape=(ndim1*ndim2, ndim1*ndim2))
+    ^
+
+  @nb.jit()
+/public/home/zyqi/anderson/single_DM/numba/2D/358/2000iter/38/single_2D_corr.py:22: NumbaWarning: 
+Compilation is falling back to object mode WITHOUT looplifting enabled because Function "get_Ham_sprase" failed type inference due to: Cannot determine Numba type of <class 'numba.core.dispatcher.LiftedLoop'>
+
+File "single_2D_corr.py", line 29:
+def get_Ham_sprase(g,W1,W2,ndim1,ndim2):
+    <source elided>
+    ### disorder term ###
+    for ii in range(ndim1):
+    ^
+
+  @nb.jit()
+/public/home/zyqi/soft/anaconda3/envs/py3.9/lib/python3.9/site-packages/numba/core/object_mode_passes.py:151: NumbaWarning: Function "get_Ham_sprase" was compiled in object mode without forceobj=True, but has lifted loops.
+
+File "single_2D_corr.py", line 22:
+
+@nb.jit()
+^
+
+  warnings.warn(errors.NumbaWarning(warn_msg,
+/public/home/zyqi/soft/anaconda3/envs/py3.9/lib/python3.9/site-packages/numba/core/object_mode_passes.py:161: NumbaDeprecationWarning: 
+Fall-back from the nopython compilation path to the object mode compilation path has been detected. This is deprecated behaviour that will be removed in Numba 0.59.0.
+
+For more information visit https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-object-mode-fall-back-behaviour-when-using-jit
+
+File "single_2D_corr.py", line 22:
+
+@nb.jit()
+^
+
+  warnings.warn(errors.NumbaDeprecationWarning(msg,
+/public/home/zyqi/anderson/single_DM/numba/2D/358/2000iter/38/single_2D_corr.py:22: NumbaWarning: 
+Compilation is falling back to object mode WITHOUT looplifting enabled because Function "get_Ham_sprase" failed type inference due to: non-precise type pyobject
+During: typing of argument at /public/home/zyqi/anderson/single_DM/numba/2D/358/2000iter/38/single_2D_corr.py (29)
+
+File "single_2D_corr.py", line 29:
+def get_Ham_sprase(g,W1,W2,ndim1,ndim2):
+    <source elided>
+    ### disorder term ###
+    for ii in range(ndim1):
+    ^
+
+  @nb.jit()
+/public/home/zyqi/soft/anaconda3/envs/py3.9/lib/python3.9/site-packages/numba/core/object_mode_passes.py:151: NumbaWarning: Function "get_Ham_sprase" was compiled in object mode without forceobj=True.
+
+File "single_2D_corr.py", line 29:
+def get_Ham_sprase(g,W1,W2,ndim1,ndim2):
+    <source elided>
+    ### disorder term ###
+    for ii in range(ndim1):
+    ^
+
+  warnings.warn(errors.NumbaWarning(warn_msg,
+/public/home/zyqi/soft/anaconda3/envs/py3.9/lib/python3.9/site-packages/numba/core/object_mode_passes.py:161: NumbaDeprecationWarning: 
+Fall-back from the nopython compilation path to the object mode compilation path has been detected. This is deprecated behaviour that will be removed in Numba 0.59.0.
+
+For more information visit https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-object-mode-fall-back-behaviour-when-using-jit
+
+File "single_2D_corr.py", line 29:
+def get_Ham_sprase(g,W1,W2,ndim1,ndim2):
+    <source elided>
+    ### disorder term ###
+    for ii in range(ndim1):
+    ^
+
+  warnings.warn(errors.NumbaDeprecationWarning(msg,
+/public/home/zyqi/soft/anaconda3/envs/py3.9/lib/python3.9/site-packages/numba/core/ir_utils.py:2174: NumbaPendingDeprecationWarning: 
+Encountered the use of a type that is scheduled for deprecation: type 'reflected list' found for argument 'col_indices' of function 'get_Ham_sprase'.
+
+For more information visit https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-reflection-for-list-and-set-types
+
+File "single_2D_corr.py", line 36:
+def get_Ham_sprase(g,W1,W2,ndim1,ndim2):
+    <source elided>
+    ### hopping term ###
+    for ii in range(ndim1):
+    ^
+
+  warnings.warn(NumbaPendingDeprecationWarning(msg, loc=loc))
+/public/home/zyqi/soft/anaconda3/envs/py3.9/lib/python3.9/site-packages/numba/core/ir_utils.py:2174: NumbaPendingDeprecationWarning: 
+Encountered the use of a type that is scheduled for deprecation: type 'reflected list' found for argument 'data' of function 'get_Ham_sprase'.
+
+For more information visit https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-reflection-for-list-and-set-types
+
+File "single_2D_corr.py", line 36:
+def get_Ham_sprase(g,W1,W2,ndim1,ndim2):
+    <source elided>
+    ### hopping term ###
+    for ii in range(ndim1):
+    ^
+
+  warnings.warn(NumbaPendingDeprecationWarning(msg, loc=loc))
+/public/home/zyqi/soft/anaconda3/envs/py3.9/lib/python3.9/site-packages/numba/core/ir_utils.py:2174: NumbaPendingDeprecationWarning: 
+Encountered the use of a type that is scheduled for deprecation: type 'reflected list' found for argument 'row_indices' of function 'get_Ham_sprase'.
+
+For more information visit https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-reflection-for-list-and-set-types
+
+File "single_2D_corr.py", line 36:
+def get_Ham_sprase(g,W1,W2,ndim1,ndim2):
+    <source elided>
+    ### hopping term ###
+    for ii in range(ndim1):
+    ^
+
+  warnings.warn(NumbaPendingDeprecationWarning(msg, loc=loc))
+/public/home/zyqi/soft/anaconda3/envs/py3.9/lib/python3.9/site-packages/numba/core/ir_utils.py:2174: NumbaPendingDeprecationWarning: 
+Encountered the use of a type that is scheduled for deprecation: type 'reflected list' found for argument 'col_indices' of function 'get_Ham_sprase'.
+
+For more information visit https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-reflection-for-list-and-set-types
+
+File "single_2D_corr.py", line 48:
+def get_Ham_sprase(g,W1,W2,ndim1,ndim2):
+    <source elided>
+
+    for ii in range(ndim1):
+    ^
+
+  warnings.warn(NumbaPendingDeprecationWarning(msg, loc=loc))
+/public/home/zyqi/soft/anaconda3/envs/py3.9/lib/python3.9/site-packages/numba/core/ir_utils.py:2174: NumbaPendingDeprecationWarning: 
+Encountered the use of a type that is scheduled for deprecation: type 'reflected list' found for argument 'data' of function 'get_Ham_sprase'.
+
+For more information visit https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-reflection-for-list-and-set-types
+
+File "single_2D_corr.py", line 48:
+def get_Ham_sprase(g,W1,W2,ndim1,ndim2):
+    <source elided>
+
+    for ii in range(ndim1):
+    ^
+
+  warnings.warn(NumbaPendingDeprecationWarning(msg, loc=loc))
+/public/home/zyqi/soft/anaconda3/envs/py3.9/lib/python3.9/site-packages/numba/core/ir_utils.py:2174: NumbaPendingDeprecationWarning: 
+Encountered the use of a type that is scheduled for deprecation: type 'reflected list' found for argument 'row_indices' of function 'get_Ham_sprase'.
+
+For more information visit https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-reflection-for-list-and-set-types
+
+File "single_2D_corr.py", line 48:
+def get_Ham_sprase(g,W1,W2,ndim1,ndim2):
+    <source elided>
+
+    for ii in range(ndim1):
+    ^
+
+  warnings.warn(NumbaPendingDeprecationWarning(msg, loc=loc))
+/public/home/zyqi/anderson/single_DM/numba/2D/358/2000iter/38/single_2D_corr.py:82: NumbaWarning: 
+Compilation is falling back to object mode WITH looplifting enabled because Function "Diagonal_Ham" failed type inference due to: non-precise type pyobject
+During: typing of argument at /public/home/zyqi/anderson/single_DM/numba/2D/358/2000iter/38/single_2D_corr.py (82)
+
+File "single_2D_corr.py", line 82:
+def get_Ham_sprase(g,W1,W2,ndim1,ndim2):
+    <source elided>
+
+@nb.jit()
+^
+
+  @nb.jit()
+/public/home/zyqi/soft/anaconda3/envs/py3.9/lib/python3.9/site-packages/numba/core/object_mode_passes.py:151: NumbaWarning: Function "Diagonal_Ham" was compiled in object mode without forceobj=True.
+
+File "single_2D_corr.py", line 83:
+@nb.jit()
+def Diagonal_Ham(Ham_sparse,ndim1,ndim2):
+^
+
+  warnings.warn(errors.NumbaWarning(warn_msg,
+/public/home/zyqi/soft/anaconda3/envs/py3.9/lib/python3.9/site-packages/numba/core/object_mode_passes.py:161: NumbaDeprecationWarning: 
+Fall-back from the nopython compilation path to the object mode compilation path has been detected. This is deprecated behaviour that will be removed in Numba 0.59.0.
+
+For more information visit https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-object-mode-fall-back-behaviour-when-using-jit
+
+File "single_2D_corr.py", line 83:
+@nb.jit()
+def Diagonal_Ham(Ham_sparse,ndim1,ndim2):
+^
+
+  warnings.warn(errors.NumbaDeprecationWarning(msg,
