@@ -1,0 +1,135 @@
+Processing iterations:   0%|          | 0/2000 [00:00<?, ?it/s]Processing iterations:   2%|▎         | 50/2000 [00:00<00:08, 222.26it/s]malloc fails for local dworkptr[].malloc fails for local dworkptr[]./home/users/zyqi/soft/anaconda3/envs/py3.9/lib/python3.9/site-packages/joblib/externals/loky/backend/utils.py:63: UserWarning: Failed to kill subprocesses on this platform. Please installpsutil: https://github.com/giampaolo/psutil
+Details:
+Traceback (most recent call last):
+  File "/home/users/zyqi/soft/anaconda3/envs/py3.9/lib/python3.9/site-packages/joblib/externals/loky/backend/utils.py", line 60, in _kill_process_tree_without_psutil
+    _posix_recursive_kill(process.pid)
+  File "/home/users/zyqi/soft/anaconda3/envs/py3.9/lib/python3.9/site-packages/joblib/externals/loky/backend/utils.py", line 111, in _posix_recursive_kill
+    children_pids = subprocess.check_output(
+  File "/home/users/zyqi/soft/anaconda3/envs/py3.9/lib/python3.9/subprocess.py", line 424, in check_output
+    return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,
+  File "/home/users/zyqi/soft/anaconda3/envs/py3.9/lib/python3.9/subprocess.py", line 505, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/home/users/zyqi/soft/anaconda3/envs/py3.9/lib/python3.9/subprocess.py", line 951, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/home/users/zyqi/soft/anaconda3/envs/py3.9/lib/python3.9/subprocess.py", line 1770, in _execute_child
+    self.pid = _posixsubprocess.fork_exec(
+OSError: [Errno 12] Cannot allocate memory
+
+  warnings.warn(
+Exception in thread ExecutorManagerThread:
+Traceback (most recent call last):
+  File "/home/users/zyqi/soft/anaconda3/envs/py3.9/lib/python3.9/site-packages/joblib/externals/loky/backend/utils.py", line 60, in _kill_process_tree_without_psutil
+    _posix_recursive_kill(process.pid)
+  File "/home/users/zyqi/soft/anaconda3/envs/py3.9/lib/python3.9/site-packages/joblib/externals/loky/backend/utils.py", line 111, in _posix_recursive_kill
+    children_pids = subprocess.check_output(
+  File "/home/users/zyqi/soft/anaconda3/envs/py3.9/lib/python3.9/subprocess.py", line 424, in check_output
+    return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,
+  File "/home/users/zyqi/soft/anaconda3/envs/py3.9/lib/python3.9/subprocess.py", line 505, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/home/users/zyqi/soft/anaconda3/envs/py3.9/lib/python3.9/subprocess.py", line 951, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/home/users/zyqi/soft/anaconda3/envs/py3.9/lib/python3.9/subprocess.py", line 1770, in _execute_child
+    self.pid = _posixsubprocess.fork_exec(
+OSError: [Errno 12] Cannot allocate memory
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/users/zyqi/soft/anaconda3/envs/py3.9/lib/python3.9/threading.py", line 980, in _bootstrap_inner
+    self.run()
+  File "/home/users/zyqi/soft/anaconda3/envs/py3.9/lib/python3.9/site-packages/joblib/externals/loky/process_executor.py", line 635, in run
+    self.flag_executor_shutting_down()
+  File "/home/users/zyqi/soft/anaconda3/envs/py3.9/lib/python3.9/site-packages/joblib/externals/loky/process_executor.py", line 856, in flag_executor_shutting_down
+    self.kill_workers(reason="executor shutting down")
+  File "/home/users/zyqi/soft/anaconda3/envs/py3.9/lib/python3.9/site-packages/joblib/externals/loky/process_executor.py", line 866, in kill_workers
+    kill_process_tree(p)
+  File "/home/users/zyqi/soft/anaconda3/envs/py3.9/lib/python3.9/site-packages/joblib/externals/loky/backend/utils.py", line 21, in kill_process_tree
+    _kill_process_tree_without_psutil(process)
+  File "/home/users/zyqi/soft/anaconda3/envs/py3.9/lib/python3.9/site-packages/joblib/externals/loky/backend/utils.py", line 73, in _kill_process_tree_without_psutil
+    process.kill()
+  File "/home/users/zyqi/soft/anaconda3/envs/py3.9/lib/python3.9/multiprocessing/process.py", line 140, in kill
+    self._popen.kill()
+AttributeError: 'Popen' object has no attribute 'kill'
+joblib.externals.loky.process_executor._RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "/home/users/zyqi/soft/anaconda3/envs/py3.9/lib/python3.9/site-packages/joblib/externals/loky/process_executor.py", line 490, in _process_worker
+    r = call_item()
+  File "/home/users/zyqi/soft/anaconda3/envs/py3.9/lib/python3.9/site-packages/joblib/externals/loky/process_executor.py", line 291, in __call__
+    return self.fn(*self.args, **self.kwargs)
+  File "/home/users/zyqi/soft/anaconda3/envs/py3.9/lib/python3.9/site-packages/joblib/parallel.py", line 606, in __call__
+    return [func(*args, **kwargs) for func, args, kwargs in self.items]
+  File "/home/users/zyqi/soft/anaconda3/envs/py3.9/lib/python3.9/site-packages/joblib/parallel.py", line 606, in <listcomp>
+    return [func(*args, **kwargs) for func, args, kwargs in self.items]
+  File "/home/users/zyqi/anderson/single_DM/parallel_with_errorbar/MDM/SOC_2D/EF3/M32/W2.80/3/Dense_Matrix_2D_SOC_length.py", line 165, in process_iteration
+    e, v = Diagonal_Ham(Ham_sparse, ndim1, ndim2)
+  File "/home/users/zyqi/anderson/single_DM/parallel_with_errorbar/MDM/SOC_2D/EF3/M32/W2.80/3/Dense_Matrix_2D_SOC_length.py", line 126, in Diagonal_Ham
+    e,v = eigs(
+  File "/home/users/zyqi/soft/anaconda3/envs/py3.9/lib/python3.9/site-packages/scipy/sparse/linalg/_eigen/arpack/arpack.py", line 1336, in eigs
+    Minv_matvec = get_OPinv_matvec(A, M, sigma,
+  File "/home/users/zyqi/soft/anaconda3/envs/py3.9/lib/python3.9/site-packages/scipy/sparse/linalg/_eigen/arpack/arpack.py", line 1078, in get_OPinv_matvec
+    return SpLuInv(A).matvec
+  File "/home/users/zyqi/soft/anaconda3/envs/py3.9/lib/python3.9/site-packages/scipy/sparse/linalg/_eigen/arpack/arpack.py", line 915, in __init__
+    self.M_lu = splu(M)
+  File "/home/users/zyqi/soft/anaconda3/envs/py3.9/lib/python3.9/site-packages/scipy/sparse/linalg/_dsolve/linsolve.py", line 433, in splu
+    return _superlu.gstrf(N, A.nnz, A.data, indices, indptr,
+MemoryError
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/users/zyqi/soft/anaconda3/envs/py3.9/lib/python3.9/site-packages/joblib/parallel.py", line 1681, in _get_outputs
+    yield from self._retrieve()
+  File "/home/users/zyqi/soft/anaconda3/envs/py3.9/lib/python3.9/site-packages/joblib/parallel.py", line 1783, in _retrieve
+    self._raise_error_fast()
+  File "/home/users/zyqi/soft/anaconda3/envs/py3.9/lib/python3.9/site-packages/joblib/parallel.py", line 1858, in _raise_error_fast
+    error_job.get_result(self.timeout)
+  File "/home/users/zyqi/soft/anaconda3/envs/py3.9/lib/python3.9/site-packages/joblib/parallel.py", line 757, in get_result
+    return self._return_or_raise()
+  File "/home/users/zyqi/soft/anaconda3/envs/py3.9/lib/python3.9/site-packages/joblib/parallel.py", line 772, in _return_or_raise
+    raise self._result
+MemoryError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/users/zyqi/anderson/single_DM/parallel_with_errorbar/MDM/SOC_2D/EF3/M32/W2.80/3/Dense_Matrix_2D_SOC_length.py", line 272, in <module>
+    main()
+  File "/home/users/zyqi/anderson/single_DM/parallel_with_errorbar/MDM/SOC_2D/EF3/M32/W2.80/3/Dense_Matrix_2D_SOC_length.py", line 264, in main
+    Length_W(g,ndim1,ndim2,color_list[ii])
+  File "/home/users/zyqi/anderson/single_DM/parallel_with_errorbar/MDM/SOC_2D/EF3/M32/W2.80/3/Dense_Matrix_2D_SOC_length.py", line 242, in Length_W
+    L_temp = Correlation_length(g,-W,W,ndim1,ndim2)
+  File "/home/users/zyqi/anderson/single_DM/parallel_with_errorbar/MDM/SOC_2D/EF3/M32/W2.80/3/Dense_Matrix_2D_SOC_length.py", line 196, in Correlation_length
+    results = parallel(tqdm(tasks, total=num_iter, desc="Processing iterations"))
+  File "/home/users/zyqi/soft/anaconda3/envs/py3.9/lib/python3.9/site-packages/joblib/parallel.py", line 2071, in __call__
+    return output if self.return_generator else list(output)
+  File "/home/users/zyqi/soft/anaconda3/envs/py3.9/lib/python3.9/site-packages/joblib/parallel.py", line 1731, in _get_outputs
+    self._abort()
+  File "/home/users/zyqi/soft/anaconda3/envs/py3.9/lib/python3.9/site-packages/joblib/parallel.py", line 1645, in _abort
+    backend.abort_everything(ensure_ready=ensure_ready)
+  File "/home/users/zyqi/soft/anaconda3/envs/py3.9/lib/python3.9/site-packages/joblib/_parallel_backends.py", line 729, in abort_everything
+    self.configure(n_jobs=self.parallel.n_jobs, parallel=self.parallel)
+  File "/home/users/zyqi/soft/anaconda3/envs/py3.9/lib/python3.9/site-packages/joblib/_parallel_backends.py", line 639, in configure
+    self._workers = get_memmapping_executor(
+  File "/home/users/zyqi/soft/anaconda3/envs/py3.9/lib/python3.9/site-packages/joblib/executor.py", line 18, in get_memmapping_executor
+    return MemmappingExecutor.get_memmapping_executor(n_jobs, **kwargs)
+  File "/home/users/zyqi/soft/anaconda3/envs/py3.9/lib/python3.9/site-packages/joblib/executor.py", line 59, in get_memmapping_executor
+    _executor, executor_is_reused = super().get_reusable_executor(
+  File "/home/users/zyqi/soft/anaconda3/envs/py3.9/lib/python3.9/site-packages/joblib/externals/loky/reusable_executor.py", line 215, in get_reusable_executor
+    return cls.get_reusable_executor(
+  File "/home/users/zyqi/soft/anaconda3/envs/py3.9/lib/python3.9/site-packages/joblib/externals/loky/reusable_executor.py", line 182, in get_reusable_executor
+    _executor = executor = cls(
+  File "/home/users/zyqi/soft/anaconda3/envs/py3.9/lib/python3.9/site-packages/joblib/externals/loky/reusable_executor.py", line 118, in __init__
+    super().__init__(
+  File "/home/users/zyqi/soft/anaconda3/envs/py3.9/lib/python3.9/site-packages/joblib/externals/loky/process_executor.py", line 1139, in __init__
+    self._processes_management_lock = self._context.Lock()
+  File "/home/users/zyqi/soft/anaconda3/envs/py3.9/lib/python3.9/site-packages/joblib/externals/loky/backend/context.py", line 362, in Lock
+    return Lock()
+  File "/home/users/zyqi/soft/anaconda3/envs/py3.9/lib/python3.9/site-packages/joblib/externals/loky/backend/synchronize.py", line 192, in __init__
+    super().__init__(SEMAPHORE, 1, 1)
+  File "/home/users/zyqi/soft/anaconda3/envs/py3.9/lib/python3.9/site-packages/joblib/externals/loky/backend/synchronize.py", line 72, in __init__
+    self._semlock = _SemLock(
+OSError: [Errno 28] No space left on device
+Process LokyProcess-27:
+malloc fails for local dworkptr[].

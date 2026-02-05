@@ -1,0 +1,8 @@
+#!/bin/sh
+#SBATCH -J python
+#SBATCH -N 1
+#SBATCH --ntasks-per-node=52
+#SBATCH -p short,regular
+#SBATCH --exclude hpcc008,hpcc101,hpcc102,hpcc034,hpcc069,hpcc033,hpcc049 
+# PATH
+python Dense_Matrix_2D_length.py  >out 2>err

@@ -1,0 +1,41 @@
+Processing iterations:   0%|          | 0/2000 [00:00<?, ?it/s]Traceback (most recent call last):
+  File "/home/users/zyqi/anderson/single_DM/parallel_with_errorbar/MDM/SOC_2D/EF1/M32/W3.40/1/Dense_Matrix_2D_SOC_length.py", line 272, in <module>
+    main()
+  File "/home/users/zyqi/anderson/single_DM/parallel_with_errorbar/MDM/SOC_2D/EF1/M32/W3.40/1/Dense_Matrix_2D_SOC_length.py", line 264, in main
+    Length_W(g,ndim1,ndim2,color_list[ii])
+  File "/home/users/zyqi/anderson/single_DM/parallel_with_errorbar/MDM/SOC_2D/EF1/M32/W3.40/1/Dense_Matrix_2D_SOC_length.py", line 242, in Length_W
+    L_temp = Correlation_length(g,-W,W,ndim1,ndim2)
+  File "/home/users/zyqi/anderson/single_DM/parallel_with_errorbar/MDM/SOC_2D/EF1/M32/W3.40/1/Dense_Matrix_2D_SOC_length.py", line 196, in Correlation_length
+    results = parallel(tqdm(tasks, total=num_iter, desc="Processing iterations"))
+  File "/home/users/zyqi/soft/anaconda3/envs/py3.9/lib/python3.9/site-packages/joblib/parallel.py", line 2069, in __call__
+    next(output)
+  File "/home/users/zyqi/soft/anaconda3/envs/py3.9/lib/python3.9/site-packages/joblib/parallel.py", line 1674, in _get_outputs
+    self._start(iterator, pre_dispatch)
+  File "/home/users/zyqi/soft/anaconda3/envs/py3.9/lib/python3.9/site-packages/joblib/parallel.py", line 1657, in _start
+    if self.dispatch_one_batch(iterator):
+  File "/home/users/zyqi/soft/anaconda3/envs/py3.9/lib/python3.9/site-packages/joblib/parallel.py", line 1539, in dispatch_one_batch
+    self._dispatch(tasks)
+  File "/home/users/zyqi/soft/anaconda3/envs/py3.9/lib/python3.9/site-packages/joblib/parallel.py", line 1436, in _dispatch
+    job = self._backend.submit(batch, callback=batch_tracker)
+  File "/home/users/zyqi/soft/anaconda3/envs/py3.9/lib/python3.9/site-packages/joblib/_parallel_backends.py", line 693, in submit
+    future = self._workers.submit(func)
+  File "/home/users/zyqi/soft/anaconda3/envs/py3.9/lib/python3.9/site-packages/joblib/externals/loky/reusable_executor.py", line 230, in submit
+    return super().submit(fn, *args, **kwargs)
+  File "/home/users/zyqi/soft/anaconda3/envs/py3.9/lib/python3.9/site-packages/joblib/externals/loky/process_executor.py", line 1278, in submit
+    self._ensure_executor_running()
+  File "/home/users/zyqi/soft/anaconda3/envs/py3.9/lib/python3.9/site-packages/joblib/externals/loky/process_executor.py", line 1250, in _ensure_executor_running
+    self._adjust_process_count()
+  File "/home/users/zyqi/soft/anaconda3/envs/py3.9/lib/python3.9/site-packages/joblib/externals/loky/process_executor.py", line 1239, in _adjust_process_count
+    p.start()
+  File "/home/users/zyqi/soft/anaconda3/envs/py3.9/lib/python3.9/multiprocessing/process.py", line 121, in start
+    self._popen = self._Popen(self)
+  File "/home/users/zyqi/soft/anaconda3/envs/py3.9/lib/python3.9/site-packages/joblib/externals/loky/backend/process.py", line 45, in _Popen
+    return Popen(process_obj)
+  File "/home/users/zyqi/soft/anaconda3/envs/py3.9/lib/python3.9/site-packages/joblib/externals/loky/backend/popen_loky_posix.py", line 48, in __init__
+    self._launch(process_obj)
+  File "/home/users/zyqi/soft/anaconda3/envs/py3.9/lib/python3.9/site-packages/joblib/externals/loky/backend/popen_loky_posix.py", line 128, in _launch
+    pid = fork_exec(cmd_python, self._fds, env=process_obj.env)
+  File "/home/users/zyqi/soft/anaconda3/envs/py3.9/lib/python3.9/site-packages/joblib/externals/loky/backend/fork_exec.py", line 46, in fork_exec
+    return _posixsubprocess.fork_exec(
+OSError: [Errno 12] Cannot allocate memory
+Processing iterations:   0%|          | 0/2000 [00:00<?, ?it/s]

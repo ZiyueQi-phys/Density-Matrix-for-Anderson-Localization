@@ -1,0 +1,8 @@
+#!/bin/sh
+#SBATCH -J python
+#SBATCH -N 1
+#SBATCH --ntasks-per-node=52
+#SBATCH -p short,regular
+ 
+# PATH
+python Transfer_Matrix_3D_length.py  >out 2>err

@@ -1,0 +1,82 @@
+/home/users/zyqi/anderson/single_DM/parallel_with_errorbar/TMM/3D/W4/M4/W5.60/3/Transfer_Matrix_3D_length.py:41: NumbaDeprecationWarning: The 'nopython' keyword argument was not supplied to the 'numba.jit' decorator. The implicit default value for this argument is currently False, but it will be changed to True in Numba 0.59.0. See https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-object-mode-fall-back-behaviour-when-using-jit for details.
+  @nb.jit()
+  0%|          | 0/1 [00:00<?, ?it/s]/home/users/zyqi/anderson/single_DM/parallel_with_errorbar/TMM/3D/W4/M4/W5.60/3/Transfer_Matrix_3D_length.py:41: NumbaWarning: 
+Compilation is falling back to object mode WITH looplifting enabled because Function "get_localization_length" failed type inference due to: Untyped global name 'get_TMM': Cannot determine Numba type of <class 'function'>
+
+File "Transfer_Matrix_3D_length.py", line 54:
+def get_localization_length(M,g,W,EF,NL):
+    <source elided>
+        #print("iter:",ii)
+        TM_temp = get_TMM(M,g,-W,W,EF)
+        ^
+
+  @nb.jit()
+/home/users/zyqi/anderson/single_DM/parallel_with_errorbar/TMM/3D/W4/M4/W5.60/3/Transfer_Matrix_3D_length.py:41: NumbaWarning: 
+Compilation is falling back to object mode WITHOUT looplifting enabled because Function "get_localization_length" failed type inference due to: Cannot determine Numba type of <class 'numba.core.dispatcher.LiftedLoop'>
+
+File "Transfer_Matrix_3D_length.py", line 52:
+def get_localization_length(M,g,W,EF,NL):
+    <source elided>
+
+    for ii in range(NL):
+    ^
+
+  @nb.jit()
+/home/users/zyqi/soft/anaconda3/envs/py3.9/lib/python3.9/site-packages/numba/core/object_mode_passes.py:151: NumbaWarning: Function "get_localization_length" was compiled in object mode without forceobj=True, but has lifted loops.
+
+File "Transfer_Matrix_3D_length.py", line 41:
+def get_TMM(M,g,W1,W2,EF):
+    <source elided>
+
+@nb.jit()
+^
+
+  warnings.warn(errors.NumbaWarning(warn_msg,
+/home/users/zyqi/soft/anaconda3/envs/py3.9/lib/python3.9/site-packages/numba/core/object_mode_passes.py:161: NumbaDeprecationWarning: 
+Fall-back from the nopython compilation path to the object mode compilation path has been detected. This is deprecated behaviour that will be removed in Numba 0.59.0.
+
+For more information visit https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-object-mode-fall-back-behaviour-when-using-jit
+
+File "Transfer_Matrix_3D_length.py", line 41:
+def get_TMM(M,g,W1,W2,EF):
+    <source elided>
+
+@nb.jit()
+^
+
+  warnings.warn(errors.NumbaDeprecationWarning(msg,
+/home/users/zyqi/anderson/single_DM/parallel_with_errorbar/TMM/3D/W4/M4/W5.60/3/Transfer_Matrix_3D_length.py:41: NumbaWarning: 
+Compilation is falling back to object mode WITHOUT looplifting enabled because Function "get_localization_length" failed type inference due to: Untyped global name 'get_TMM': Cannot determine Numba type of <class 'function'>
+
+File "Transfer_Matrix_3D_length.py", line 54:
+def get_localization_length(M,g,W,EF,NL):
+    <source elided>
+        #print("iter:",ii)
+        TM_temp = get_TMM(M,g,-W,W,EF)
+        ^
+
+  @nb.jit()
+/home/users/zyqi/soft/anaconda3/envs/py3.9/lib/python3.9/site-packages/numba/core/object_mode_passes.py:151: NumbaWarning: Function "get_localization_length" was compiled in object mode without forceobj=True.
+
+File "Transfer_Matrix_3D_length.py", line 52:
+def get_localization_length(M,g,W,EF,NL):
+    <source elided>
+
+    for ii in range(NL):
+    ^
+
+  warnings.warn(errors.NumbaWarning(warn_msg,
+/home/users/zyqi/soft/anaconda3/envs/py3.9/lib/python3.9/site-packages/numba/core/object_mode_passes.py:161: NumbaDeprecationWarning: 
+Fall-back from the nopython compilation path to the object mode compilation path has been detected. This is deprecated behaviour that will be removed in Numba 0.59.0.
+
+For more information visit https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-object-mode-fall-back-behaviour-when-using-jit
+
+File "Transfer_Matrix_3D_length.py", line 52:
+def get_localization_length(M,g,W,EF,NL):
+    <source elided>
+
+    for ii in range(NL):
+    ^
+
+  warnings.warn(errors.NumbaDeprecationWarning(msg,
+100%|██████████| 1/1 [23:04<00:00, 1384.08s/it]100%|██████████| 1/1 [23:04<00:00, 1384.08s/it]

@@ -1,0 +1,120 @@
+/home/users/jiangkun/zyqi/anderson/parallel_with_errorbar/MDM/3D/EF6/M12/W7.80/3/Dense_Matrix_3D_length.py:25: NumbaDeprecationWarning: The 'nopython' keyword argument was not supplied to the 'numba.jit' decorator. The implicit default value for this argument is currently False, but it will be changed to True in Numba 0.59.0. See https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-object-mode-fall-back-behaviour-when-using-jit for details.
+  @nb.jit()
+/home/users/jiangkun/zyqi/anderson/parallel_with_errorbar/MDM/3D/EF6/M12/W7.80/3/Dense_Matrix_3D_length.py:97: NumbaDeprecationWarning: The 'nopython' keyword argument was not supplied to the 'numba.jit' decorator. The implicit default value for this argument is currently False, but it will be changed to True in Numba 0.59.0. See https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-object-mode-fall-back-behaviour-when-using-jit for details.
+  @nb.jit()
+  0%|          | 0/3000 [00:00<?, ?it/s]/home/users/jiangkun/zyqi/anderson/parallel_with_errorbar/MDM/3D/EF6/M12/W7.80/3/Dense_Matrix_3D_length.py:25: NumbaWarning: 
+Compilation is falling back to object mode WITH looplifting enabled because Function "get_Ham_sprase" failed type inference due to: Untyped global name 'csr_matrix': Cannot determine Numba type of <class 'type'>
+
+File "Dense_Matrix_3D_length.py", line 71:
+def get_Ham_sprase(g,W1,W2,ndim1,ndim2,ndim3):
+    <source elided>
+
+    Ham_sparse = csr_matrix((data, (row_indices, col_indices)), shape=(ndim1*ndim2*ndim3, ndim1*ndim2*ndim3))
+    ^
+
+  @nb.jit()
+/home/users/jiangkun/zyqi/anderson/parallel_with_errorbar/MDM/3D/EF6/M12/W7.80/3/Dense_Matrix_3D_length.py:25: NumbaWarning: 
+Compilation is falling back to object mode WITHOUT looplifting enabled because Function "get_Ham_sprase" failed type inference due to: Cannot determine Numba type of <class 'numba.core.dispatcher.LiftedLoop'>
+
+File "Dense_Matrix_3D_length.py", line 32:
+def get_Ham_sprase(g,W1,W2,ndim1,ndim2,ndim3):
+    <source elided>
+    ### disorder term ###
+    for ii in range(ndim1):
+    ^
+
+  @nb.jit()
+/home/users/jiangkun/anaconda3/envs/py3.9/lib/python3.9/site-packages/numba/core/object_mode_passes.py:151: NumbaWarning: Function "get_Ham_sprase" was compiled in object mode without forceobj=True, but has lifted loops.
+
+File "Dense_Matrix_3D_length.py", line 25:
+
+@nb.jit()
+^
+
+  warnings.warn(errors.NumbaWarning(warn_msg,
+/home/users/jiangkun/anaconda3/envs/py3.9/lib/python3.9/site-packages/numba/core/object_mode_passes.py:161: NumbaDeprecationWarning: 
+Fall-back from the nopython compilation path to the object mode compilation path has been detected. This is deprecated behaviour that will be removed in Numba 0.59.0.
+
+For more information visit https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-object-mode-fall-back-behaviour-when-using-jit
+
+File "Dense_Matrix_3D_length.py", line 25:
+
+@nb.jit()
+^
+
+  warnings.warn(errors.NumbaDeprecationWarning(msg,
+/home/users/jiangkun/zyqi/anderson/parallel_with_errorbar/MDM/3D/EF6/M12/W7.80/3/Dense_Matrix_3D_length.py:25: NumbaWarning: 
+Compilation is falling back to object mode WITHOUT looplifting enabled because Function "get_Ham_sprase" failed type inference due to: non-precise type pyobject
+During: typing of argument at /home/users/jiangkun/zyqi/anderson/parallel_with_errorbar/MDM/3D/EF6/M12/W7.80/3/Dense_Matrix_3D_length.py (32)
+
+File "Dense_Matrix_3D_length.py", line 32:
+def get_Ham_sprase(g,W1,W2,ndim1,ndim2,ndim3):
+    <source elided>
+    ### disorder term ###
+    for ii in range(ndim1):
+    ^
+
+  @nb.jit()
+/home/users/jiangkun/anaconda3/envs/py3.9/lib/python3.9/site-packages/numba/core/object_mode_passes.py:151: NumbaWarning: Function "get_Ham_sprase" was compiled in object mode without forceobj=True.
+
+File "Dense_Matrix_3D_length.py", line 32:
+def get_Ham_sprase(g,W1,W2,ndim1,ndim2,ndim3):
+    <source elided>
+    ### disorder term ###
+    for ii in range(ndim1):
+    ^
+
+  warnings.warn(errors.NumbaWarning(warn_msg,
+/home/users/jiangkun/anaconda3/envs/py3.9/lib/python3.9/site-packages/numba/core/object_mode_passes.py:161: NumbaDeprecationWarning: 
+Fall-back from the nopython compilation path to the object mode compilation path has been detected. This is deprecated behaviour that will be removed in Numba 0.59.0.
+
+For more information visit https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-object-mode-fall-back-behaviour-when-using-jit
+
+File "Dense_Matrix_3D_length.py", line 32:
+def get_Ham_sprase(g,W1,W2,ndim1,ndim2,ndim3):
+    <source elided>
+    ### disorder term ###
+    for ii in range(ndim1):
+    ^
+
+  warnings.warn(errors.NumbaDeprecationWarning(msg,
+/home/users/jiangkun/anaconda3/envs/py3.9/lib/python3.9/site-packages/numba/core/ir_utils.py:2174: NumbaPendingDeprecationWarning: 
+Encountered the use of a type that is scheduled for deprecation: type 'reflected list' found for argument 'col_indices' of function 'get_Ham_sprase'.
+
+For more information visit https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-reflection-for-list-and-set-types
+
+File "Dense_Matrix_3D_length.py", line 40:
+def get_Ham_sprase(g,W1,W2,ndim1,ndim2,ndim3):
+    <source elided>
+    ### hopping term ###
+    for ii in range(ndim1):
+    ^
+
+  warnings.warn(NumbaPendingDeprecationWarning(msg, loc=loc))
+/home/users/jiangkun/anaconda3/envs/py3.9/lib/python3.9/site-packages/numba/core/ir_utils.py:2174: NumbaPendingDeprecationWarning: 
+Encountered the use of a type that is scheduled for deprecation: type 'reflected list' found for argument 'data' of function 'get_Ham_sprase'.
+
+For more information visit https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-reflection-for-list-and-set-types
+
+File "Dense_Matrix_3D_length.py", line 40:
+def get_Ham_sprase(g,W1,W2,ndim1,ndim2,ndim3):
+    <source elided>
+    ### hopping term ###
+    for ii in range(ndim1):
+    ^
+
+  warnings.warn(NumbaPendingDeprecationWarning(msg, loc=loc))
+/home/users/jiangkun/anaconda3/envs/py3.9/lib/python3.9/site-packages/numba/core/ir_utils.py:2174: NumbaPendingDeprecationWarning: 
+Encountered the use of a type that is scheduled for deprecation: type 'reflected list' found for argument 'row_indices' of function 'get_Ham_sprase'.
+
+For more information visit https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-reflection-for-list-and-set-types
+
+File "Dense_Matrix_3D_length.py", line 40:
+def get_Ham_sprase(g,W1,W2,ndim1,ndim2,ndim3):
+    <source elided>
+    ### hopping term ###
+    for ii in range(ndim1):
+    ^
+
+  warnings.warn(NumbaPendingDeprecationWarning(msg, loc=loc))
+  0%|          | 1/3000 [31:22<1567:49:57, 1882.03s/it]  0%|          | 2/3000 [1:03:16<1582:57:58, 1900.83s/it]  0%|          | 3/3000 [1:34:57<1582:49:51, 1901.30s/it]  0%|          | 4/3000 [2:07:05<1590:59:05, 1911.73s/it]  0%|          | 5/3000 [2:39:50<1606:21:15, 1930.84s/it]  0%|          | 6/3000 [3:11:36<1598:52:49, 1922.50s/it]  0%|          | 7/3000 [3:43:35<1597:19:34, 1921.27s/it]  0%|          | 8/3000 [4:15:53<1601:12:42, 1926.59s/it]  0%|          | 9/3000 [4:48:09<1603:10:19, 1929.60s/it]  0%|          | 10/3000 [5:20:15<1601:39:17, 1928.41s/it]  0%|          | 11/3000 [5:52:14<1598:40:16, 1925.47s/it]  0%|          | 12/3000 [6:24:16<1597:25:28, 1924.61s/it]  0%|          | 13/3000 [6:56:36<1600:46:07, 1929.28s/it]  0%|          | 14/3000 [7:28:09<1591:08:08, 1918.32s/it]  0%|          | 15/3000 [7:59:59<1588:25:06, 1915.68s/it]  1%|          | 16/3000 [8:31:51<1586:54:53, 1914.51s/it]  1%|          | 17/3000 [9:03:33<1583:15:35, 1910.74s/it]  1%|          | 18/3000 [9:35:42<1587:15:18, 1916.20s/it]  1%|          | 19/3000 [10:07:44<1588:18:18, 1918.11s/it]  1%|          | 20/3000 [10:39:49<1589:23:17, 1920.07s/it]  1%|          | 21/3000 [11:11:41<1587:00:19, 1917.83s/it]  1%|          | 22/3000 [11:43:17<1580:50:53, 1911.03s/it]  1%|          | 23/3000 [12:15:01<1578:40:27, 1909.05s/it]  1%|          | 24/3000 [12:46:47<1577:19:17, 1908.05s/it]  1%|          | 25/3000 [13:18:17<1572:20:23, 1902.66s/it]  1%|          | 26/3000 [13:50:16<1575:57:22, 1907.68s/it]  1%|          | 27/3000 [14:22:01<1574:47:22, 1906.91s/it]  1%|          | 28/3000 [14:53:43<1573:01:34, 1905.42s/it]  1%|          | 29/3000 [15:25:42<1575:51:02, 1909.48s/it]  1%|          | 30/3000 [15:57:23<1573:17:56, 1907.03s/it]  1%|          | 31/3000 [16:30:04<1585:57:35, 1923.02s/it]  1%|          | 32/3000 [17:01:58<1583:18:44, 1920.46s/it]  1%|          | 33/3000 [17:33:29<1575:20:17, 1911.43s/it]  1%|          | 34/3000 [18:05:20<1574:52:52, 1911.52s/it]  1%|          | 35/3000 [18:37:17<1575:36:42, 1913.05s/it]  1%|          | 36/3000 [19:08:56<1571:40:33, 1908.92s/it]  1%|          | 37/3000 [19:40:34<1568:29:05, 1905.69s/it]  1%|▏         | 38/3000 [20:12:28<1569:54:03, 1908.05s/it]  1%|▏         | 39/3000 [20:44:27<1572:06:54, 1911.39s/it]  1%|▏         | 40/3000 [21:16:20<1571:55:07, 1911.79s/it]  1%|▏         | 41/3000 [21:48:20<1573:26:24, 1914.29s/it]  1%|▏         | 42/3000 [22:20:30<1576:46:24, 1918.99s/it]  1%|▏         | 43/3000 [22:52:08<1570:59:06, 1912.60s/it]  1%|▏         | 44/3000 [23:23:52<1568:21:52, 1910.05s/it]  2%|▏         | 45/3000 [23:55:24<1563:19:56, 1904.57s/it]  2%|▏         | 46/3000 [24:26:59<1560:36:35, 1901.89s/it]  2%|▏         | 47/3000 [24:58:26<1556:20:05, 1897.33s/it]  2%|▏         | 48/3000 [25:30:13<1558:15:22, 1900.31s/it]  2%|▏         | 49/3000 [26:01:27<1551:06:51, 1892.24s/it]  2%|▏         | 50/3000 [26:32:52<1548:57:48, 1890.26s/it]  2%|▏         | 51/3000 [27:05:01<1557:53:45, 1901.81s/it]  2%|▏         | 52/3000 [27:36:50<1559:07:01, 1903.94s/it]  2%|▏         | 53/3000 [28:08:49<1562:21:53, 1908.56s/it]  2%|▏         | 54/3000 [28:40:32<1560:22:33, 1906.77s/it]  2%|▏         | 55/3000 [29:12:38<1564:33:07, 1912.53s/it]  2%|▏         | 56/3000 [29:44:21<1561:52:10, 1909.89s/it]  2%|▏         | 57/3000 [30:15:53<1556:56:08, 1904.51s/it]  2%|▏         | 58/3000 [30:47:58<1561:16:27, 1910.46s/it]  2%|▏         | 59/3000 [31:19:26<1555:20:37, 1903.86s/it]  2%|▏         | 60/3000 [31:51:19<1556:53:47, 1906.40s/it]  2%|▏         | 61/3000 [32:23:22<1560:36:43, 1911.60s/it]  2%|▏         | 62/3000 [32:55:17<1560:43:12, 1912.39s/it]  2%|▏         | 63/3000 [33:27:22<1563:26:10, 1916.37s/it]  2%|▏         | 64/3000 [33:59:16<1562:23:27, 1915.74s/it]  2%|▏         | 65/3000 [34:31:04<1559:47:40, 1913.21s/it]  2%|▏         | 66/3000 [35:02:50<1557:39:02, 1911.23s/it]  2%|▏         | 67/3000 [35:34:52<1559:45:44, 1914.47s/it]  2%|▏         | 68/3000 [36:06:54<1560:55:06, 1916.54s/it]  2%|▏         | 69/3000 [36:38:46<1559:21:06, 1915.27s/it]  2%|▏         | 70/3000 [37:11:10<1565:42:35, 1923.74s/it]  2%|▏         | 71/3000 [37:42:55<1560:44:38, 1918.29s/it]  2%|▏         | 72/3000 [38:15:23<1567:26:55, 1927.19s/it]  2%|▏         | 73/3000 [38:47:16<1563:20:16, 1922.79s/it]  2%|▏         | 74/3000 [39:19:19<1562:58:33, 1923.01s/it]  2%|▎         | 75/3000 [39:50:56<1555:59:01, 1915.06s/it]  3%|▎         | 76/3000 [40:22:45<1554:01:50, 1913.31s/it]  3%|▎         | 77/3000 [40:54:43<1554:39:20, 1914.73s/it]

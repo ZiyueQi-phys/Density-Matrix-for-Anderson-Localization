@@ -1,0 +1,120 @@
+/home/users/jiangkun/zyqi/anderson/parallel_with_errorbar/MDM/3D/EF6/M8/W6.80/4/Dense_Matrix_3D_length.py:25: NumbaDeprecationWarning: The 'nopython' keyword argument was not supplied to the 'numba.jit' decorator. The implicit default value for this argument is currently False, but it will be changed to True in Numba 0.59.0. See https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-object-mode-fall-back-behaviour-when-using-jit for details.
+  @nb.jit()
+/home/users/jiangkun/zyqi/anderson/parallel_with_errorbar/MDM/3D/EF6/M8/W6.80/4/Dense_Matrix_3D_length.py:97: NumbaDeprecationWarning: The 'nopython' keyword argument was not supplied to the 'numba.jit' decorator. The implicit default value for this argument is currently False, but it will be changed to True in Numba 0.59.0. See https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-object-mode-fall-back-behaviour-when-using-jit for details.
+  @nb.jit()
+  0%|          | 0/3000 [00:00<?, ?it/s]/home/users/jiangkun/zyqi/anderson/parallel_with_errorbar/MDM/3D/EF6/M8/W6.80/4/Dense_Matrix_3D_length.py:25: NumbaWarning: 
+Compilation is falling back to object mode WITH looplifting enabled because Function "get_Ham_sprase" failed type inference due to: Untyped global name 'csr_matrix': Cannot determine Numba type of <class 'type'>
+
+File "Dense_Matrix_3D_length.py", line 71:
+def get_Ham_sprase(g,W1,W2,ndim1,ndim2,ndim3):
+    <source elided>
+
+    Ham_sparse = csr_matrix((data, (row_indices, col_indices)), shape=(ndim1*ndim2*ndim3, ndim1*ndim2*ndim3))
+    ^
+
+  @nb.jit()
+/home/users/jiangkun/zyqi/anderson/parallel_with_errorbar/MDM/3D/EF6/M8/W6.80/4/Dense_Matrix_3D_length.py:25: NumbaWarning: 
+Compilation is falling back to object mode WITHOUT looplifting enabled because Function "get_Ham_sprase" failed type inference due to: Cannot determine Numba type of <class 'numba.core.dispatcher.LiftedLoop'>
+
+File "Dense_Matrix_3D_length.py", line 32:
+def get_Ham_sprase(g,W1,W2,ndim1,ndim2,ndim3):
+    <source elided>
+    ### disorder term ###
+    for ii in range(ndim1):
+    ^
+
+  @nb.jit()
+/home/users/jiangkun/anaconda3/envs/py3.9/lib/python3.9/site-packages/numba/core/object_mode_passes.py:151: NumbaWarning: Function "get_Ham_sprase" was compiled in object mode without forceobj=True, but has lifted loops.
+
+File "Dense_Matrix_3D_length.py", line 25:
+
+@nb.jit()
+^
+
+  warnings.warn(errors.NumbaWarning(warn_msg,
+/home/users/jiangkun/anaconda3/envs/py3.9/lib/python3.9/site-packages/numba/core/object_mode_passes.py:161: NumbaDeprecationWarning: 
+Fall-back from the nopython compilation path to the object mode compilation path has been detected. This is deprecated behaviour that will be removed in Numba 0.59.0.
+
+For more information visit https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-object-mode-fall-back-behaviour-when-using-jit
+
+File "Dense_Matrix_3D_length.py", line 25:
+
+@nb.jit()
+^
+
+  warnings.warn(errors.NumbaDeprecationWarning(msg,
+/home/users/jiangkun/zyqi/anderson/parallel_with_errorbar/MDM/3D/EF6/M8/W6.80/4/Dense_Matrix_3D_length.py:25: NumbaWarning: 
+Compilation is falling back to object mode WITHOUT looplifting enabled because Function "get_Ham_sprase" failed type inference due to: non-precise type pyobject
+During: typing of argument at /home/users/jiangkun/zyqi/anderson/parallel_with_errorbar/MDM/3D/EF6/M8/W6.80/4/Dense_Matrix_3D_length.py (32)
+
+File "Dense_Matrix_3D_length.py", line 32:
+def get_Ham_sprase(g,W1,W2,ndim1,ndim2,ndim3):
+    <source elided>
+    ### disorder term ###
+    for ii in range(ndim1):
+    ^
+
+  @nb.jit()
+/home/users/jiangkun/anaconda3/envs/py3.9/lib/python3.9/site-packages/numba/core/object_mode_passes.py:151: NumbaWarning: Function "get_Ham_sprase" was compiled in object mode without forceobj=True.
+
+File "Dense_Matrix_3D_length.py", line 32:
+def get_Ham_sprase(g,W1,W2,ndim1,ndim2,ndim3):
+    <source elided>
+    ### disorder term ###
+    for ii in range(ndim1):
+    ^
+
+  warnings.warn(errors.NumbaWarning(warn_msg,
+/home/users/jiangkun/anaconda3/envs/py3.9/lib/python3.9/site-packages/numba/core/object_mode_passes.py:161: NumbaDeprecationWarning: 
+Fall-back from the nopython compilation path to the object mode compilation path has been detected. This is deprecated behaviour that will be removed in Numba 0.59.0.
+
+For more information visit https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-object-mode-fall-back-behaviour-when-using-jit
+
+File "Dense_Matrix_3D_length.py", line 32:
+def get_Ham_sprase(g,W1,W2,ndim1,ndim2,ndim3):
+    <source elided>
+    ### disorder term ###
+    for ii in range(ndim1):
+    ^
+
+  warnings.warn(errors.NumbaDeprecationWarning(msg,
+/home/users/jiangkun/anaconda3/envs/py3.9/lib/python3.9/site-packages/numba/core/ir_utils.py:2174: NumbaPendingDeprecationWarning: 
+Encountered the use of a type that is scheduled for deprecation: type 'reflected list' found for argument 'col_indices' of function 'get_Ham_sprase'.
+
+For more information visit https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-reflection-for-list-and-set-types
+
+File "Dense_Matrix_3D_length.py", line 40:
+def get_Ham_sprase(g,W1,W2,ndim1,ndim2,ndim3):
+    <source elided>
+    ### hopping term ###
+    for ii in range(ndim1):
+    ^
+
+  warnings.warn(NumbaPendingDeprecationWarning(msg, loc=loc))
+/home/users/jiangkun/anaconda3/envs/py3.9/lib/python3.9/site-packages/numba/core/ir_utils.py:2174: NumbaPendingDeprecationWarning: 
+Encountered the use of a type that is scheduled for deprecation: type 'reflected list' found for argument 'data' of function 'get_Ham_sprase'.
+
+For more information visit https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-reflection-for-list-and-set-types
+
+File "Dense_Matrix_3D_length.py", line 40:
+def get_Ham_sprase(g,W1,W2,ndim1,ndim2,ndim3):
+    <source elided>
+    ### hopping term ###
+    for ii in range(ndim1):
+    ^
+
+  warnings.warn(NumbaPendingDeprecationWarning(msg, loc=loc))
+/home/users/jiangkun/anaconda3/envs/py3.9/lib/python3.9/site-packages/numba/core/ir_utils.py:2174: NumbaPendingDeprecationWarning: 
+Encountered the use of a type that is scheduled for deprecation: type 'reflected list' found for argument 'row_indices' of function 'get_Ham_sprase'.
+
+For more information visit https://numba.readthedocs.io/en/stable/reference/deprecation.html#deprecation-of-reflection-for-list-and-set-types
+
+File "Dense_Matrix_3D_length.py", line 40:
+def get_Ham_sprase(g,W1,W2,ndim1,ndim2,ndim3):
+    <source elided>
+    ### hopping term ###
+    for ii in range(ndim1):
+    ^
+
+  warnings.warn(NumbaPendingDeprecationWarning(msg, loc=loc))
+  0%|          | 1/3000 [03:26<172:25:28, 206.98s/it]  0%|          | 2/3000 [06:48<169:32:26, 203.58s/it]  0%|          | 3/3000 [10:02<166:02:56, 199.46s/it]  0%|          | 4/3000 [13:18<164:47:34, 198.02s/it]  0%|          | 5/3000 [16:42<166:27:46, 200.09s/it]  0%|          | 6/3000 [20:01<166:13:59, 199.88s/it]  0%|          | 7/3000 [23:19<165:31:53, 199.10s/it]  0%|          | 8/3000 [26:38<165:35:33, 199.24s/it]  0%|          | 9/3000 [29:56<165:12:10, 198.84s/it]  0%|          | 10/3000 [33:12<164:24:32, 197.95s/it]  0%|          | 11/3000 [36:30<164:16:57, 197.86s/it]  0%|          | 12/3000 [39:45<163:35:41, 197.10s/it]  0%|          | 13/3000 [43:07<164:48:06, 198.62s/it]  0%|          | 14/3000 [46:28<165:20:36, 199.34s/it]  0%|          | 15/3000 [49:46<164:51:44, 198.83s/it]  1%|          | 16/3000 [53:01<163:47:14, 197.60s/it]  1%|          | 17/3000 [56:18<163:38:08, 197.48s/it]  1%|          | 18/3000 [59:38<164:12:03, 198.23s/it]  1%|          | 19/3000 [1:03:02<165:36:45, 200.00s/it]  1%|          | 20/3000 [1:06:22<165:36:38, 200.07s/it]
