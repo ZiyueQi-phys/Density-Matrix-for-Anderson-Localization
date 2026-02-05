@@ -6,7 +6,7 @@ paper: https://arxiv.org/abs/2509.26206
 
 Accepted in PRX: https://journals.aps.org/prx/accepted/10.1103/y5kd-7prs
 
-<p><em><strong><span style="color:#c2410c;">We warmly welcome you to follow, use, and further develop the density matrix framework to explore rich localization problems.</span></strong></em></p>
+<p><em><strong><span style="color:#c2410c;">We warmly welcome you to use and further develop the density matrix framework to explore rich localization problems! </span></strong></em></p>
 
 ### Authors and contributions
 
